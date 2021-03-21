@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2021.2.3)  18 FEB 2021 19:59
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2021.2.3)  18 FEB 2021 20:58
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -315,19 +315,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--47
 
  []
 
+[2]
 File: ticinus.jpg Graphic file (type bmp)
 <ticinus.jpg>
-[2] [3] (./hannibal.aux)
+ [3]
+File: trebius.jpg Graphic file (type bmp)
+<trebius.jpg>
+ [4] (./hannibal.aux)
 Package rerunfilecheck Info: File `hannibal.out' has not changed.
-(rerunfilecheck)             Checksum: ED3AB9978C4AE118E1A2369C73E385D0;456.
+(rerunfilecheck)             Checksum: 03516CFFDAC8B96063D1E63EECFFBC2C;581.
  ) 
 Here is how much of TeX's memory you used:
- 9192 strings out of 477299
- 132773 string characters out of 5838339
- 451113 words of memory out of 5000000
- 28723 multiletter control sequences out of 15000+600000
+ 9198 strings out of 477299
+ 132851 string characters out of 5838339
+ 451245 words of memory out of 5000000
+ 28728 multiletter control sequences out of 15000+600000
  406582 words of font info for 44 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 68i,6n,75p,233b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,6n,75p,1283b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hannibal.pdf (3 pages).
+Output written on hannibal.pdf (4 pages).
