@@ -4,3 +4,6 @@
 [submodule "anglictina/pdf/books/oliver-twist"]
 	path = anglictina/pdf/books/oliver-twist
 	url = https://github.com/jenca-adam/knihy
+[submodule "matika/primes"]
+	path = matika/primes
+	url = https://github.com/jenca-adam/matikaprvocislastranka
