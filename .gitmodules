@@ -1,3 +1,6 @@
 [submodule "geg/projekt_masai_mara/maasai-mara"]
 	path = geg/projekt_masai_mara/maasai-mara
 	url = https://github.com/jenca-adam/maasai-mara
+[submodule "anglictina/pdf/books/oliver-twist"]
+	path = anglictina/pdf/books/oliver-twist
+	url = https://github.com/jenca-adam/knihy
