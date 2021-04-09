@@ -7,3 +7,6 @@
 [submodule "matika/primes"]
 	path = matika/primes
 	url = https://github.com/jenca-adam/matikaprvocislastranka
+[submodule "triednicka/7dovodov"]
+	path = triednicka/7dovodov	
+	url = https://github.com/jenca-adam/7dovodov
