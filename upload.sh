@@ -1,3 +1,3 @@
-git add .
-git commit -m $1
+git add . >/dev/null
+git commit >/dev/null -m $1
 git push
