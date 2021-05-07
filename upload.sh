@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 m=$(pwd)
 cd anj/pdf/books/oliver-twist
 git add .  -v
