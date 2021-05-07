@@ -1,3 +1,3 @@
 git add . -v 
-git commit -m "bla" 
+git commit -m "$(date)" 
 git push
