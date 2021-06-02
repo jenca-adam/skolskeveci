@@ -8,5 +8,5 @@ for i in chapter* ;do
 	cd ..;
 	pwd;
 	done
-pdfjam chapter*/chapter.pdf -o book.pdf
+pdfjam chapter*/chapter.pdf -o book.pdf --papersize '{1080px,850px}'
 
