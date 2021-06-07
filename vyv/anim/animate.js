@@ -1,8 +1,8 @@
 var jazdaSimul;
 window.onzoom=function(){alert("nezoomuj debil!")}
 function scene4(){
-	$("body").css({"background-image":"url(\"assets/bg3.jpg\")","background-repeat":"no-repeat"})
-	$("#knight").attr("src","assets/stopped.gif")
+	$("body").prepend("<img src=\"assets/bg3.jpg\" style=\"min-width:100%;min-height:100%\">")
+	$("#knight").attr("src","assets/stop.gif")
 	$("#knight").transition({x:0,y:400,duration:0})
 	$("body").append("<img src=\"assets/king.png\" id=\"king\">")
 	$("#king").transition({x:300,y:400,duration:0})
@@ -20,7 +20,7 @@ function scene3(){
 
 	$("#knight").transition({x:0,y:400,duration:0})
 	$("#knight").transition({x:12000,y:400,duration:12000})
-	setTimeout(scene4,5)
+	setTimeout(scene4,5000)
 }
 
 function scene2(){
