@@ -9,8 +9,10 @@ function scene4(){
 	$("body").append("<img src=\"assets/king.png\" id=\"king\">")
 	$("#king").transition({x:300,y:0,duration:0})
 	$("#king").transition({x:200,y:0,duration:1000})
-	$("#textik").css({"background-color":"black","color":"white"})
+	$("#textik").css({"background-color":"black","color":"white","position":"absolute","top":"0px"})
+	$("#textik").transition({x:0,y:0,duration:0})
 	$("#textik").fadeIn(300)
+	
 	}
 function scene3(){
 	$("#tabula").hide(0);
@@ -30,7 +32,8 @@ function scene2(){
 	$("body").append("<img src=\"assets/tabularasa.png\" id=\"tabula\" >")
 	$("body").append("<img src=\"assets/flag.png\" id=\"flag\" >")
 
-	$("body").css({"background-image":"url(\"assets/hd2.jpg\")","background-repeat":"no-repeat"})
+	$("body").css({"background-image":"url(\"assets/hd2.jpg\")","background-repeat":"no-repeat","background-size":"1920px 1080px"})
+	//$("body").animate({"background-size":"500%"},10000)
 	$("#tabula").css({"opacity":"90%","transform":"translate(1300px,300px) scale(0.1)"})
 	$("#flag").css({"position":"absolute",display:"block","left":"700px","top":"0px","transform":"scale(0.2) translate(700px,-900px)",opacity:"70%"})
 	$("#tabula").transition({opacity:100,y:2000,x:2300,scale:5,duration:49974})
@@ -66,10 +69,17 @@ function scene1(){
 
 
 
+function init(){
+$('body').append($('<img src="assets/knight.gif" id="knight" style="bottom:100px;left:0px;transform:scale(0.6);position:absolute;">'))
 
+}
 function start(){
+
 var timer;
 var datTimer;
+
+$('body').append($('<img src="assets/forest.png" id="poz" style="min-width:100%;bottom:0px;position:fixed;">'))
+$('body').append($('<img src="assets/datel.ico" id="datel-im" style="top:0px;left:0px;position:absolute;">'))
 
 datTimer=setInterval(function(){try{audio.stop()} catch {} ;var audio = new Audio('music/knock.mp3');
 	audio.volume=0.5;
