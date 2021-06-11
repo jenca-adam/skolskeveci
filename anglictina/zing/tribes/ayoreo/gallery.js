@@ -38,7 +38,7 @@ function reload(){
 	$.get(simples[ii],function(d){$("title").text(d+" - Ayoreo Gallery")})
 }
 $("#image").html('<img id="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
-$("#image").append('<p id="desc" style="top:80%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
+$("#image").append('<p id="desc" style="top:65%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
 reload();
 $(".bullet").click(function(){
 	curt=0;
