@@ -1,4 +1,4 @@
-
+var animated=false;
 var imgcount=6;
 $("#bullets").append("<div class=\"bullet active\" id=\"0\"></div>")
 for (var bul=1;bul<imgcount;bul++){
@@ -7,16 +7,37 @@ $("#bullets").append("<div class=\"bullet\" id=\""+bul+"\"></div>")
 }
 $("#gallery").append("<div id=\"image\" style=\"position:relative;left:500px;max-height:65%;max-width:50%;\"></div>");
 var images=[];
+var descs=[];
 for (var im=0;im<imgcount;im++){
 	images.push("gallery/"+im+".jpg")
+	descs.push("gallery/"+im+".txt")
 }
 console.log(images);
 var ii=0;
-function reload(){
-	$("#inner").fadeOut(function(){$(this).attr('src',images[ii])}).fadeIn()
+function delay(ms){
+	var myd=new Date()
+	var curt=myd.getTime();
+	var afr=curt+ms;
+	while (true){
+		myd=new Date()
+		curt=myd.getTime()
+		if (curt>=afr){
+		break
 }
-$("#image").html('<img id="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(1.5)">')
+		}
+}
+function reload(){
+	$("#inner").fadeOut(function(){$(this).attr('src',images[ii])}).delay(100).fadeIn()
+	$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
+}
+$("#image").html('<div id="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
+$("#image").append('<p id="desc"></p>')
+reload();
 $(".bullet").click(function(){
+		if (animated){return;}
+	animated=true;
+
+	delay(200)
 	var b=$(this)
 	if (b.is(".active")){
 		return }
@@ -27,9 +48,13 @@ $(".bullet").click(function(){
 		$("#"+ii).addClass("active");
 
 	reload();
+	animated=false;
 
 })
 $(".sipk").click(function(){
+	if (animated){return;}
+	animated=true;
+	delay(200)
 	var $t=$(this)
 		$("#"+ii).removeClass("active")
 
@@ -46,5 +71,6 @@ $(".sipk").click(function(){
 	}
 	$("#"+ii).addClass("active");
 	reload();
+	animated=false
 	
 	})
