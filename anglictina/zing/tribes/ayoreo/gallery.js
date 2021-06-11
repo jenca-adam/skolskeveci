@@ -76,3 +76,4 @@ $(".sipk").click(function(){
 	animated=false
 	
 	})
+setInterval(function(){$("#next").click()},5000)
