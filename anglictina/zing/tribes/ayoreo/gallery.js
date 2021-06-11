@@ -76,4 +76,5 @@ $(".sipk").click(function(){
 	animated=false
 	
 	})
+$('.sipk').on('mouseenter',function(){$(this).children('svg').attr('fill','#fea')})
 
