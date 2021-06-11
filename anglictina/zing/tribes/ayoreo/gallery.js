@@ -1,11 +1,14 @@
 var animated=false;
 var imgcount=6;
+var tout=2000;
+var pod=tout/150;
+var curt=0;
 $("#bullets").append("<div class=\"bullet active\" id=\"0\"></div>")
 for (var bul=1;bul<imgcount;bul++){
 $("#bullets").append("<div class=\"bullet\" id=\""+bul+"\"></div>")
 
 }
-$("#gallery").append("<div id=\"image\" style=\"position:relative;left:500px;max-height:65%;max-width:50%;\"></div>");
+$("#gallery").append("<div id=\"image\" style=\"position:relative;top:120px;left:500px;max-height:65%;max-width:50%;\"></div>");
 var images=[];
 var descs=[];
 for (var im=0;im<imgcount;im++){
@@ -36,6 +39,7 @@ $("#image").html('<img id="inner" src="'+images[ii]+'" style="margin-left:auto;m
 $("#image").append('<p id="desc" style="top:70%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
 reload();
 $(".bullet").click(function(){
+	curt=0;
 		if (animated){return;}
 	animated=true;
 
@@ -56,6 +60,7 @@ $(".bullet").click(function(){
 $(".sipk").click(function(){
 	if (animated){return;}
 	animated=true;
+	curt=0;
 	delay(200)
 	var $t=$(this)
 		$("#"+ii).removeClass("active")
@@ -76,6 +81,15 @@ $(".sipk").click(function(){
 	animated=false
 	
 	})
+function oneStep(){
+	curt++;
+	if (curt===tout){$("#"+ii).removeClass("active")
+ii++;if(ii==imgcount){ii=0};reload();curt=0;$("#"+ii).addClass("active")
+};
+	$("#timer").css('width',curt/pod+'px')
+	
+}
 $('svg').hover(function(){$(this).attr('fill','#aea').css('border','1px solid #aea')},function(){$(this).attr('fill','#fea').css('border','0px solid #000')})
-
+setInterval(oneStep,1)
+$("#max").css('width',tout/pod+'px')
 
