@@ -74,6 +74,8 @@ $(".sipk").click(function(){
 	$("#"+ii).addClass("active");
 	reload();
 	animated=false
+	clearInterval(ints);
+	var ints=setInterval(function(){$("#next").click()},5000)	
 	
 	})
-setInterval(function(){$("#next").click()},5000)
+var ints=setInterval(function(){$("#next").click()},5000)
