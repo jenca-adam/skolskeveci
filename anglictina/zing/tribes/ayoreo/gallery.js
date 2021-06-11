@@ -76,5 +76,5 @@ $(".sipk").click(function(){
 	animated=false
 	
 	})
-$('svg').hover(function(){$(this).attr('fill','#fea')})
+$('svg').hover(function(){$(this).attr('fill','#aea')})
 
