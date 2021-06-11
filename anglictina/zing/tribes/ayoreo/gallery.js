@@ -29,7 +29,8 @@ function delay(ms){
 function reload(){
 	$("#inner").fadeOut(function(){$(this).attr('src',images[ii])}).delay(100).fadeIn()
 	$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
-	$("title").html(descs[ii]+' - Ayoreo Gallery')
+	$("title").load(descs[ii])
+	$("title").append(' - Ayoreo Gallery');
 }
 $("#image").html('<img id="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
 $("#image").append('<p id="desc" style="top:70%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
