@@ -31,7 +31,7 @@ function reload(){
 	$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
 }
 $("#image").html('<img id="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
-$("#image").append('<p id="desc" style="top:70%;margin:auto;text-align:center;transform:translate(0px,300px);"></p>')
+$("#image").append('<p id="desc" style="top:70%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
 reload();
 $(".bullet").click(function(){
 		if (animated){return;}
