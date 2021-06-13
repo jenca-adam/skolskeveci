@@ -15,7 +15,7 @@ if(up.has('s')){
 }
 }
 for (var bul=0;bul<imgcount;bul++){
-$("#bullets").append("<div class=\"bullet\" id=\""+bul+1"\"></div>")
+$("#bullets").append("<div class=\"bullet\" id=\""+bul+1+"\"></div>")
 if(bul==ii){
 	$("#"+bul+1).addClass("active")
 }
