@@ -10,7 +10,7 @@ const queryString = window.location.search;
 const up = new URLSearchParams(queryString);
 if(up.has('s')){
 	uy=parseInt(up.get('s'))
-	if(uy<imgcount&&uy>-1){
+	if(uy<imgcount && uy>0){
 		ii=uy-1;
 }
 }
