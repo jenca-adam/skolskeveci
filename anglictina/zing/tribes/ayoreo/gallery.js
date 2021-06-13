@@ -4,6 +4,16 @@ var tout=3000;
 var pod=tout/150;
 var curt=0;
 var sw=true;
+var ii=0;
+
+const queryString = window.location.search;
+const up = new URLSearchParams(queryString);
+if(up.has('s')){
+	uy=parseInt(up.get('s'))
+	if(0<uy<imgcount){
+		ii=uy-1;
+}
+}
 $("#bullets").append("<div class=\"bullet active\" id=\"0\"></div>")
 for (var bul=1;bul<imgcount;bul++){
 $("#bullets").append("<div class=\"bullet\" id=\""+bul+"\"></div>")
@@ -20,7 +30,6 @@ for (var im=0;im<imgcount;im++){
 
 }
 console.log(images);
-var ii=0;
 function delay(ms){
 	var myd=new Date()
 	var curt=myd.getTime();
