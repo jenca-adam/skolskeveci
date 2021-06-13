@@ -35,7 +35,7 @@ function delay(ms){
 }
 function reload(){
 	$(".inner").fadeOut(function(){$(this).attr('src',images[ii])}).delay(100).fadeIn()
-	//$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
+	$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
 	$.get(simples[ii],function(d){$("title").text(d+" - Ayoreo Gallery")})
 }
 $("#image").html('<img class="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
