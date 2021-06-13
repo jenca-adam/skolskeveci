@@ -1,8 +1,9 @@
 var animated=false;
 var imgcount=6;
-var tout=2000;
+var tout=3000;
 var pod=tout/150;
 var curt=0;
+var sw=true;
 $("#bullets").append("<div class=\"bullet active\" id=\"0\"></div>")
 for (var bul=1;bul<imgcount;bul++){
 $("#bullets").append("<div class=\"bullet\" id=\""+bul+"\"></div>")
@@ -33,11 +34,11 @@ function delay(ms){
 		}
 }
 function reload(){
-	$("#inner").fadeOut(function(){$(this).attr('src',images[ii])}).delay(100).fadeIn()
-	$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
+	$(".inner").fadeOut(function(){$(this).attr('src',images[ii])}).delay(100).fadeIn()
+	//$("#desc").fadeOut(function(){$(this).load(descs[ii])}).delay(100).fadeIn()
 	$.get(simples[ii],function(d){$("title").text(d+" - Ayoreo Gallery")})
 }
-$("#image").html('<img id="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
+$("#image").html('<img class="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
 $("#image").append('<p id="desc" style="top:65%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
 reload();
 $(".bullet").click(function(){
@@ -84,9 +85,13 @@ $(".sipk").click(function(){
 	
 	})
 function oneStep(){
+	pod=tout/150;
+
 	curt++;
-	if (curt===tout){$("#"+ii).removeClass("active")
-ii++;if(ii==imgcount){ii=0};reload();curt=0;$("#"+ii).addClass("active")
+	if (curt>=tout){
+	if (sw){
+	$("#"+ii).removeClass("active")
+ii++;if(ii==imgcount){ii=0};reload();};curt=0;$("#"+ii).addClass("active")
 };
 	$("#timer").css('width',curt/pod+'px')
 	
@@ -94,4 +99,11 @@ ii++;if(ii==imgcount){ii=0};reload();curt=0;$("#"+ii).addClass("active")
 $('svg').hover(function(){$(this).attr('fill','#aea').css('border','1px solid #aea')},function(){$(this).attr('fill','#fea').css('border','0px solid #000')})
 setInterval(oneStep,1)
 $("#max").css('width',tout/pod+'px')
-
+setInterval(function(){tout=parseInt($("#range").val());$("#to").text(tout)},3)
+$("#show").click(function(){sw=!sw;curt=0;
+	if(!sw){
+	$("#timer").fadeOut()
+	$("#max").fadeOut()
+	$("#tc").fadeOut()
+	}
+	else{$("#timer").fadeIn();$("#max").fadeIn();$("#tc").fadeIn()}})

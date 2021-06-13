@@ -1,0 +1,30 @@
+class Socket{
+		constructor(url,inv=5){
+				this.url=url;
+			
+				this.inv=inv;
+				this.resps=[];
+				try{
+				setInterval(function(){this._r(url)},this.inv)
+}catch{}}
+	_r (url){	
+			console.log(url)
+			var r=this.resps;
+			 var x=new XMLHttpRequest();
+			x.addEventListener('load',function(){if (this.responseText!="None"){r.push(this.responseText)}})
+			try{
+			x.open("GET",this.url)
+			x.send()}catch{}}
+	receive(){
+			return this.resps.pop()
+			}
+	send(data){
+		var sx=new XMLHttpRequest();
+			sx.open("POST",this.url)
+			sx.send('msg='+data)
+			
+
+}	
+			 
+			   
+}
