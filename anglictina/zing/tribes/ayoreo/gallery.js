@@ -14,12 +14,11 @@ if(up.has('s')){
 		ii=uy-1;
 }
 }
-for (var bul=0;bul<imgcount;bul++){
-$("#bullets").append("<div class=\"bullet\" id=\""+bul+1+"\"></div>")
-if(bul==ii){
-	$("#"+bul+1).addClass("active")
+for (var bul=1;bul<imgcount+1;bul++){
+$("#bullets").append("<div class=\"bullet\" id=\""+bul+"\"></div>")
+
 }
-}
+$("#"+ii).addClass("active")
 $("#gallery").append("<div id=\"image\" style=\"position:relative;top:120px;left:500px;max-height:65%;max-width:50%;\"></div>");
 var images=[];
 var descs=[];
