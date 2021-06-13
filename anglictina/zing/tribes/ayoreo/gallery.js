@@ -50,7 +50,7 @@ function reload(){
 $("#image").html('<img class="inner" src="'+images[ii]+'" style="margin-left:auto;max-height:65%;max-width:50%;transform:scale(2)">')
 $("#image").append('<p id="desc" style="top:65%;margin:auto;text-align:center;transform:translate(-41px,189px);"></p>')
 $('#desc').load(descs[ii])
-$.get(simples[ii],function(d){$("title").text(d+" - Ayoreo Gallery")}
+$.get(simples[ii],function(d){$("title").text(d+" - Ayoreo Gallery")})
 $(".bullet").click(function(){
 	curt=0;
 		if (animated){return;}
