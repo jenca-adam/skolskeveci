@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>TOP 3 THINGS OF MY SUMMER</title>
+  <meta charset="utf-8"></meta>
+  <link rel="shortcut icon" href="favicon.png">
+  <script src="https://gtsforum.xyz/jquery.min.js"></script>
+<style>
+html{
+    color:#e0be20;
+  font-family:Garamond,sans-serif,times;
+  overflow:hidden;
+  font-weight:bold;
+  font-size:20pt;
+}
+html,body{
+  margin:0;
+
+}
+
+h1,h2,h3,h4,h5,h6,hgroup{
+  text-align:center;
+  font-weight:bolder;
+}
+header{
+  background:#317;
+  margin:0;
+  padding:10px;
+  text-align:center;
+}
+body{
+  background:#173;
+  margin:0px;
+  padding:0px;
+  max-height:800px;
+}
+button#start{
+  position:fixed;
+  left:48%;
+  bottom:4%;
+  color:white;
+  background:blue;
+  padding:10px;
+  border-radius:0px;
+  border:none;
+  appearance:none;
+}
+#image-summer{
+  position:absolute;
+
+}
+img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+button:active{
+  filter: drop-shadow(16px 16px 20px blue) hue-rotate(30deg);
+  transform:translate3d(5px,-5px,5px);
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>TOP 3 THINGS OF MY SUMMER</h1>
+  <p></p>
+</header>
+  
+    <img class="image" id="image-summer" style="transform:scale(0.4);" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Giuseppe_Arcimboldo_-_Summer_-_Google_Art_Project.jpg/800px-Giuseppe_Arcimboldo_-_Summer_-_Google_Art_Project.jpg" style="display:none;"></img>
+    <script>
+      $(".image").hide()
+      $("#image-summer").fadeIn(1000)
+      $("body").append("<button id=\"start\">START</button>")
+      $("#start").hide().fadeIn(1000)
+      var para=$("p")
+      var interval;
+  var lines1=['When we had flight from Berlin to Bratislava, we had to pass the security control.','Everything was all right until security employee grabbed the bag and asked if it\'s ours.','We said it\'s ours and he opened it...','...he searched through the bag and he found...',"...banana.",'He put it back to the bag and let us go.','He obviously thought it is a pistol or something.']
+      var lines2=['We had to bring accordion to our friend to Rabčice and we decided to  walk there.','But we saw the cow herd with fence around blocking the road.',' So we had to go through forest.','The cows mooed angrily and when we finally could walk out from the forest, the tender of cattle yelled at us we have to go back to the forest','After this  struggle, we went to the friend\'s house and he told us about the shortcut.','But we misunderstood him and continuing forward at the feeding rack instead of turning right.','And our dog ran away.','When we found out we are on the wrong path, we turned back and went to the feeding-rack.','We went on the correct path  and came to our hut.' ]
+      var lines3=['On the beginning of the summer we hiked through the Slovak Paradise.','The whole mountain range was empty because everybody went to foreign countries.']
+      function slines(lines=lines1,timeout=4000,after=anim2){
+            para.text(lines[0]);
+            var lindex=1
+            var interval=setInterval(function(){
+                    var q=lines[lindex];
+                    if (q ==undefined){
+                            after();
+                            clearInterval(interval)
+                          }
+                    para.text(q);
+                    lindex++;
+                                                      
+                  },timeout)}
+      function anim1(){
+              $("h1").text("1.Banana Pistol");$("#image-summer").attr('src','https://i.pinimg.com/originals/5a/74/22/5a74225dbe8f1478091265993d8abac2.jpg');slines()
+
+            }
+      function anim2(){
+              $("h1").text("2. Through Forest with Accordion");$("#image-summer").attr('src','https://s3.envato.com/files/137238708/590.jpg');slines(lines2,4000,anim3);
+            }
+      function anim3(){
+              $("h1").text("3. Hiking through Slovak Paradise");;$("#image-summer").attr('src','https://lh3.google.com/pw/AM-JKLUAvdWl4pRw8l9PJc-vjZCqqxsT33r1pCYU3hU99-xAuESqvvhpqrZp22ES8IaDCoRN7egJLyQJDstDP72Xv5xKjbBxxA=w874-h1165-no?authuser=0');slines(lines3,4000,function(){window.close()});
+            }
+      $("#start").click(function(){$("#start").hide();anim1()})
+    </script>
+</body>
+</html>
