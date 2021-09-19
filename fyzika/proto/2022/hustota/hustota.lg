@@ -1,0 +1,27 @@
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+htfcss: cmbx  font-weight: bold;
+htfcss: cmbxsl  font-weight: bold; font-style: oblique;
+File: hustota.html
+--- characters ---
+Font("cmr","10","10","100")
+--- needs --- hustota.idv[2] ==> cmr10-10.png ---
+Font("cmbx","12","12","207")
+Font("cmr","17","17","100")
+Font("cmbx","12","12","144")
+Font("cmr","12","12","100")
+--- needs --- hustota.idv[3] ==> cmr12-10.png ---
+Font("cmbx","12","12","120")
+Font("cmbx","12","12","100")
+Font("cmr","8","8","100")
+Font("cmr","6","6","100")
+Font("cmmi","12","12","100")
+Font("cmmi","8","8","100")
+Font("cmmi","6","6","100")
+Font("tcrm","1200","12","100")

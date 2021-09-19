@@ -1,0 +1,6 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Obsah}}{1}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-2}{Teoretický Úvod}}{2}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{1}{x1-30001.1}{QQ2-1-3}{Jednotky hustoty}}{2}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-40002}{QQ2-1-4}{Popis experimentu}}{2}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-40011}{}{\ignorespaces Valček z neznámeho materiálu(hliníka)}}{figure}\relax 
