@@ -3,6 +3,11 @@
 \usepackage[left=2cm,right=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage[table]{xcolor}
+\newcolumntype{a}{p{2cm}}
+\newcolumntype{b}{p{2cm}}
+\definecolor{g}{HTML}{EEDDEE}
+\definecolor{r}{HTML}{DDEEEE}
 
 \begin{document}
 \begin{center}
@@ -71,20 +76,21 @@ Na experiment potrebujeme:
 \end{enumerate}
 \section{Výpočty}
 \subsection{Tabuľka}
-\begin{tabular}{ |p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
-
-	\hline 
+\begin{center}
+\begin{tabular}{  p{1cm}  p{2cm}  p{2cm}  p{2cm}  p{2cm}  p{2cm} }
+	\rowcolor{r}
 	Valček & $V_n^1$ & $V_n^2$ & $V_n$ & $m_n$ & $\varrho_n$ \\
-	\hline 
+	\rowcolor{g} 
 	$1$ & $41.1 cm^3$ & $45.3 cm^3$ & $4.2 cm^3$ & $13.3 g$ & $3.1\overline{6} \frac{g}{cm^3}$ \\
-	\hline
+	\rowcolor{r}
 	$2$ & $41.7 cm^3$ & $48.3 cm^3$ & $6.6 cm^3$ & $18.8 g$ & $2.\overline{84} \frac{g}{cm^3}$ \\
-	\hline
+	\rowcolor{g}
 	$3$ & $30.2 cm^3$ & $43.3 cm^3$ & $13.1 cm^3$ & $27.2 g$ & $2.07633 \frac{g}{cm^3}$ \\
-	\hline
+	\rowcolor{r}
 	$4$ & $80.1 cm^3$ & $99.3 cm^3$ & $19.2 cm^3$ & $38.2 g$ & $1.99 \frac{g}{cm^3}$ \\
-	\hline
+	
 \end{tabular}
+\end{center}
 \subsection{Valček 1}
 \begin{enumerate}
 	\item Vypočítame $V_1$:

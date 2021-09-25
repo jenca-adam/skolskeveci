@@ -1,0 +1,7 @@
+cislo merania;pocet minci
+1;22
+2;25
+3;26
+4;29
+5;28
+priemer;26
