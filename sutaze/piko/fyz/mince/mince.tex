@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{bm}
+\begin{document}
+\begin{center}
+	\huge \textbf{Krtince z mincí}\\
+	\large \texttt{Príklad 4}\\
+	\large \texttt{Adam Jenča}\\
+	\large \texttt{Sekunda A}\\
+	\large \texttt{SŠ Novohradská 3, Bratislava}\\
+\end{center}
+\section{Úvod}
+Mojim cieľom bolo zistiť, koľko mincí treba na stlačenie klávesy. 
+Používal som klávesy enter, pravý shift a medzerník s 1-centovými mincami.
+\section{Postup}
+Pre každú klávesu:
+\begin{enumerate}
+\item Opakujeme 5-krát:
+\begin{enumerate}
+\item Kladieme mince na klávesu až kým sa nestlačí. Pozorne počítame mince.
+\item Keď sa klávesa pod váhou mincí stlačí, zapíšeme si počet mincí $M_n$ 
+\end{enumerate}
+\item Vypočítame priemer $\overline{M}$ pomocou vzorca 
+	\[
+		\overline{M}=\frac{\displaystyle{\sum_{i=1}^5 M_i}}{5}=\frac{M_1+M_2+\dots+M_5}{5} 
+	\]
+\item Priemer zapíšeme do tabuľky
+\end{enumerate}
+\section{Tabuľky}
+\subsection{Klávesa Enter}
+\begin{tabular}{|c|c|>{\bfseries}c|}
+	\hline
+	Číslo merania&Počet mincí&\normalfont{Priemer po $n$-tom meraní}\\
+	\hline
+	$1$&$22$&22\\
+	\hline
+	$2$&$25$&23.5\\
+	\hline
+	$3$&$26$&24.$\overline{3}$\\
+	\hline
+	$4$&$29$&25.5\\
+	\hline
+	$5$&$28$&26\\
+	\hline
+\end{tabular}
+\end{document}

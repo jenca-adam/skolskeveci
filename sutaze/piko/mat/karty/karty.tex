@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[slovak]{babel}
+\begin{document}
+\begin{center}
+	\huge \textbf{Kartový zázrak}\\
+	\large \texttt{Príklad 4}\\
+	\large \texttt{Adam Jenča}\\
+	\large \texttt{Sekunda A}\\
+	\large \texttt{SŠ Novohradská 3, Bratislava}\\
+\end{center}
+\vskip 1cm
+\begin{quote}
+Eliška a Vínomaš majú pred sebou kôpku s 12 kartami a idú hrať hru. Striedavo si z kôpky berú dve alebo tri karty. Vínomaš začína. Ak na konci zostane 1 karta, je to remíza, inak vyhráva ten, kto zobral poslednú kartu. Vínomaš zistil, že môže brať karty tak, že určite vyhrá, bez ohľadu na Eliškine ťahy.
+	\textit{\textbf{Koľko kariet si musí Vínomaš potiahnuť v prvom ťahu a ako má hrať ďalšie ťahy, aby si vedel zaručiť, že si zoberie aj poslednú kartu?}}
+\end{quote}
+Povedzme, že by Vínomaš ťahal 3 karty.
+Potom by na kôpke zostalo 9 kariet.
+\begin{center}
+\begin{tikzpicture}
+	\node[draw] at (4,0.5) {12};
+	\draw  (4,0) -- (6,-2);
+	\node[draw] at (5.5,-0.75) {3};
+	\node[draw] at (6,-2.5) {9};
+\end{tikzpicture}
+\end{center}
+Povedzme, že teraz Eliška vezme 3 karty.
+
+\end{document}
