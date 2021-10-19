@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.9.26)  18 OCT 2021 16:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/Arch Linux) (preloaded format=xelatex 2021.9.26)  19 OCT 2021 14:57
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -170,7 +170,11 @@ Package polyglossia Info: Making " an active character on input line 37.
 \slovak@nonsyllabicpreposition=\XeTeXcharclass4
 )
 Package polyglossia Info: Default language is slovak.
- (./jozko-zadanie.aux)
+ (./jozko-zadanie.aux
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+)
 \openout1 = `jozko-zadanie.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
