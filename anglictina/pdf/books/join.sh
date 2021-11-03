@@ -1,11 +1,12 @@
 #!/bin/bash
 for i in chapter* ;do
 	cd $i;
-	pdfjam page?.pdf worksheet.pdf -o chapter.pdf;
+	echo -ne "\rProcessing $i ...";
+	nohup pdfjam page?.pdf worksheet.pdf -o chapter.pdf 2> /dev/null ;
 	qpdf --rotate=-90 chapter.pdf --replace-input;
-
-	cd /home/adam/skola/anglictina/pdf/books/oliver-twist ;
-	pwd;
+	
+	cd ..;
 	done
-pdfjam chapter*/chapter.pdf -o book.pdf
-
+echo -ne "\rFinished. Writing book.pdf ..."
+nohup pdfjam chapter*/chapter.pdf -o book.pdf --papersize '{1080px,850px}' 2>/dev/null
+echo -ne "\r\t\t\r"
