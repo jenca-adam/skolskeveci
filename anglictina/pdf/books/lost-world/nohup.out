@@ -1,0 +1,40 @@
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile book.pdf --papersize '{1080px,850px}' -- chapter1/chapter.pdf - chapter2/chapter.pdf - chapter3/chapter.pdf - chapter4/chapter.pdf - chapter5/chapter.pdf - chapter6/chapter.pdf - chapter7/chapter.pdf - chapter8/chapter.pdf - chapter910/chapter.pdf - chapter9/chapter.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'book.pdf'.
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile book.pdf --papersize '{1080px,850px}' -- chapter1/chapter.pdf - chapter2/chapter.pdf - chapter3/chapter.pdf - chapter4/chapter.pdf - chapter5/chapter.pdf - chapter6/chapter.pdf - chapter7/chapter.pdf - chapter8/chapter.pdf - chapter910a/chapter.pdf - chapter9/chapter.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'book.pdf'.
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile book.pdf --papersize '{1080px,850px}' -- chapter1/chapter.pdf - chapter2/chapter.pdf - chapter3/chapter.pdf - chapter4/chapter.pdf - chapter5/chapter.pdf - chapter6/chapter.pdf - chapter7/chapter.pdf - chapter8/chapter.pdf - chapter910\~/chapter.pdf - chapter9/chapter.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'book.pdf'.
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile book.pdf --papersize '{1080px,850px}' -- chapter1/chapter.pdf - chapter2/chapter.pdf - chapter3/chapter.pdf - chapter4/chapter.pdf - chapter5/chapter.pdf - chapter6/chapter.pdf - chapter7/chapter.pdf - chapter8/chapter.pdf - chapter910/chapter.pdf - chapter9/chapter.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'book.pdf'.
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile book.pdf --papersize '{1080px,850px}' -- chapter1/chapter.pdf - chapter2/chapter.pdf - chapter3/chapter.pdf - chapter4/chapter.pdf - chapter5/chapter.pdf - chapter6/chapter.pdf - chapter7/chapter.pdf - chapter8/chapter.pdf - chapter9/chapter.pdf - chapterr10/chapter.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'book.pdf'.
