@@ -1,13 +1,20 @@
 \documentclass[dvipsnames]{beamer}
 \usepackage{polyglossia}
+\usepackage{multicol}
 \setdefaultlanguage{slovak}
-\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\setbeamertemplate{caption}{\centering\raggedright\insertcaption\par}
+\setbeamerfont{caption}{size=\footnotesize}
+\setbeamerfont{section in toc}{size=\small}
+\setbeamerfont{subsection in toc}{size=\footnotesize}
+\setbeamerfont{subsubsection in toc}{size=\scriptsize}
 \setlength{\belowcaptionskip}{-13pt}
 \setlength{\abovecaptionskip}{-5pt}
 \setlength\intextsep{-10cm}
 \definecolor{bgc}{RGB}{250,250,250}
 \definecolor{tc}{RGB}{0,0,100}
+\definecolor{su}{RGB}{0,100,0}
 \urlstyle{same}
+\setlength{\columnseprule}{0.1pt}
 \setbeamercolor{sectionColor}{fg=white,bg=RoyalBlue}
 \setbeamercolor{background canvas}{bg=bgc,fg=white}
 \setbeamercolor{normal text}{fg=tc}
@@ -37,18 +44,9 @@
 \end{frame}
 \begin{frame}
 	\frametitle {Obsah}
-	\begin{columns}
-		\column{0.7\textwidth}
+	\begin{multicols}{2}
 		\tableofcontents
-		\column{0.3\textwidth}
-		\includegraphics{book}\\
-		\vskip 2mm
-		\includegraphics[scale=0.4]{arch}\\
-		\vskip 2mm
-		\includegraphics[scale=0.4]{music}\\
-		\vskip 2mm
-		\includegraphics[scale=0.4]{palette}\\
-	\end{columns}
+	\end{multicols}
 \end{frame}
 \section{Hudba}
 \frame{\sectionpage}
@@ -76,7 +74,7 @@
 	\end{columns}
 
 \end{frame}
-\begin{frame}{\small Barok / \Large Nástroje}
+\begin{frame}{\small \textcolor{red}{Barok} / \Large Nástroje}
 	\subsubsection{Nástroje}
 	\begin{itemize}
 		\item Najvyužívanejšie:	
@@ -112,7 +110,7 @@
 
 	\end{columns}
 \end{frame}
-\begin{frame}{\small Barok / \Large Skladatelia}
+\begin{frame}{\small \textcolor{red}{Barok} / \Large Skladatelia}
 	\subsubsection{Skladatelia}
 	\begin{columns}
 	\column{0.5\textwidth}
@@ -144,6 +142,7 @@
 	\end{columns}
 \end{frame}
 \begin{frame}{Klasicizmus}
+	\subsection{Klasicizmus}
 	\begin{itemize}
 		\item Vznik a rozvoj sonátovej formy
 		\item Rozlišovanie dur/mol
@@ -155,7 +154,8 @@
 		\caption{Najväčší skladatelia klasicizmu: Haydn, Mozart a Beethoven}
 	\end{figure}
 \end{frame}
-\begin{frame}{\small Klasicizmus / \Large Skladatelia}
+\begin{frame}{\small \textcolor{red}{Klasicizmus} / \Large Skladatelia}
+	\subsubsection{Skladatelia}
 	\begin{columns}
 	\column{0.7\textwidth}
 
@@ -205,7 +205,7 @@
 		\end{minipage}
 	\end{itemize}
 \end{frame}
-\begin{frame}{\small 17. storočie / \Large Významní spisovatelia 17. storočia}
+\begin{frame}{\small \textcolor{red}{17. storočie} / \Large Významní spisovatelia 17. storočia}
 	\subsubsection{Významní spisovatelia 17. storočia}
 	\begin{columns}
 	\column{0.6\textwidth}
@@ -258,7 +258,7 @@
 
 \end{frame}
 
-\begin{frame}{\small{18. storočie} / \Large Významní spisovatelia 18. storočia}
+\begin{frame}{\small{\textcolor{red}{18. storočie}} / \Large Významní spisovatelia 18. storočia}
 	
 \subsubsection{Významní spisovatelia 18. storočia}
 \begin{columns}
@@ -292,18 +292,258 @@
 \begin{frame}{Baroková architektúra}
 	\subsection{Baroková architektúra}
 	\begin{itemize}
-		\item Barok - nepochopený smer
-		\item Vznikol na začiatku 17. storočia v Taliansku
-		\item Dekoratívne prvky - podpora katolíkov
+		\item Barok - ,,vzbura'' proti prísnym pravidlám renesancie
+		\item Vznik: 17. storočie , Taliansko - začatá katolíkmi
+		\item Dekoratívne prvky
+		\item Prehnaný dôraz na zložitosť
 	\end{itemize}
-		\begin{columns}
-		\column{0.8\textwidth}
 		\begin{figure}
-			\includegraphics[scale=0.35]{loyola}
+			\includegraphics[scale=0.3]{loyola}
 			\caption{Interiér kostola sv. Ignáca z Loyoly, Rím}
 		\end{figure}
-		\column{0.2\textwidth}
+\end{frame}
+\begin{frame}{\small \textcolor{red}{Baroková architektúra} / \Large Raný barok}
+	\subsubsection{Raný barok}
+	\begin{itemize}
+		\item Odpoveď na reformáciu
+		\item Objednávatelia - Jezuiti
+		\item Stavby
+		\begin{itemize}
+			\item \textcolor{BurntOrange}{Carlo Maderno} - Fasáda Baziliky Sv. Petra
+				\item \textcolor{BurntOrange}{Giacomo della Porta} - Kostol Il Gesú
+				\item \textcolor{BurntOrange}{Salomon de Brosse} - Luxemburský palác
+				\item \textcolor{BurntOrange}{Louis le Vau} - château Vaux-le-Vicomte
+				\item \textcolor{BurntOrange}{Giovanni Maria Bernardoni} - Kostol Sv. Petra a Pavla
+		\end{itemize}
+		\begin{columns}
+			\column{0.5\textwidth}
+			\kern0pt
+			\begin{figure}
+				\includegraphics[scale=0.5]{gesu}
+				\caption{Strop kostola Il Gesú}
+			\end{figure}%
+			\column{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[scale=3.5]{lux}
+				\caption{Luxemburský palác}
+			\end{figure}
 		\end{columns}
+	\end{itemize}
+\end{frame}
+\begin{frame}{\small \textcolor{red}{Baroková architektúra} / \Large Vrcholný barok}
+	\subsubsection{Vrcholný barok}
+	\begin{itemize}
+		\item Patrón: Pápež \textcolor{BurntOrange}{Urban VIII.}
+		\item Hlavný cirkevný architekt: \textcolor{BurntOrange}{Gian Lorenzo Bernini}
+		\item Stavby:
+		\begin{itemize}
+			\item \textcolor{BurntOrange}{Bernini} - Barokové centrum Ríma
+			\item \textcolor{BurntOrange}{Francesco Borromini} - Kostol San Carlo alle Quattro Fontane
+			\item \textcolor{BurntOrange}{Maderno}, \textcolor{BurntOrange}{Bernini} a \textcolor{BurntOrange}{Borromini} - Palác Barberiniovcov
+			\item \textcolor{BurntOrange}{Baldassare Longhena} - Kostol Santa Maria della Salute
+			\item \textcolor{BurntOrange}{Pietro da Cortona} - Kostol Santi Luca e Martina
+		\end{itemize}
+		\begin{columns}
+			\column{0.33\textwidth}
+			\kern0pt
+			\begin{figure}
+				\includegraphics[scale=0.325]{barberini}
+				\caption{Palác Barberiniovcov}
+			\end{figure}%
+			\column{0.33\textwidth}
+			\begin{figure}
+				\includegraphics[scale=0.225]{salute}
+				\caption{Santa Maria della Salute}
+			\end{figure}%
+			\column{0.33\textwidth}
+			\begin{figure}
+				\includegraphics[scale=0.225]{slem}
+				\caption{ Santi Luca e Martina}
+			\end{figure}
+
+
+		\end{columns}
+	\end{itemize}
+\end{frame}
+\begin{frame}{\small \textcolor{red}{Baroková architektúra} / \Large Neskorý barok}
+	\subsubsection{Neskorý barok}
+	\begin{itemize}
+		\item Vznik rokoka - orientálne vplyvy
+		\item Španielsko - Churriguerizmus -> ,,ultrabarok''
+		\item Stavby:
+		\begin{itemize}
+			\item \textcolor{BurntOrange}{Filippo Juvarra} - Bazilika na Superge
+			\item \textcolor{BurntOrange}{J. Hardouin-Mansart} - Zrkadlová sieň a kaplnka vo Versailles
+			\item \textcolor{BurntOrange}{Fischer von Erlach} - Kalskirche
+			\item \textcolor{BurntOrange}{Jose Benito de Churriguera} - Oltár v Segovijskej Katedrále
+		\end{itemize}
+	\end{itemize}
+	\vskip -4mm
+	\begin{columns}
+		\kern0pt
+		\column{0.33\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.25]{verzajl}
+			\vskip 0.5mm
+			\caption{\centering Kaplnka Versaillského Paláca}
+		\end{figure}%
+		\column{0.33\textwidth}
+		\begin{figure}
+			\includegraphics[scale=1.5]{karlskirchw}
+			%\vskip 0.5mm
+			\caption{\centering Karlskirche}
+		\end{figure}%
+		\column{0.33\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.1]{ultra}
+			\vskip 0.5mm
+			\caption{\centering Oltár v Segovijskej Katedrále}
+		\end{figure}%
+
+
+	\end{columns}
+
+\end{frame}
+\begin{frame}{Klasicizmus}
+	\subsection{Klasicizmus}
+	\begin{itemize}
+		\item Vznik : 2. polovica 18. storočia
+		\item Znovuobjavenie antiky
+		\item Bez výstredností baroka
+		\item Stavby:
+		\begin{itemize}
+			\item \textcolor{BurntOrange}{Pierre-François-Léonard Fontaine} - Víťazný oblúk
+			\item \textcolor{BurntOrange}{Jacques-Germain Soufflot} - Panteón
+			\item \textcolor{BurntOrange}{Angel-Jacques Gabriel} - Petit Trianon
+		\end{itemize}
+		\begin{columns}
+			\kern0pt
+			\column {0.33\textwidth}
+			\begin{figure}
+				\includegraphics[scale=0.3]{ark}
+				\caption{Víťazný oblúk}
+			\end{figure}
+			\column {0.33\textwidth}
+			\begin{figure}
+				\includegraphics[scale=0.3]{panty}
+				\caption{Panteón}
+			\end{figure}
+			\column {0.33\textwidth}
+			\begin{figure}
+				\includegraphics[scale=0.3]{maly}
+				\caption{Petit Trianon}
+			\end{figure}
+
+		\end{columns}
+	\end{itemize}
+\end{frame}
+\section{Výtvarné umenie}
+\frame{\sectionpage}
+\begin{frame}{Barok}
+	\subsection{Barok}
+	\begin{itemize}
+		\item Ovplyvnené:
+		\begin{itemize}
+			\item Katolíckou reformou
+			\item Pokrokom vo vede
+		\end{itemize}
+		\item Kládol sa dôraz na dramatickosť
+	\end{itemize}
+	\begin{columns}
+		\kern0pt
+		\column{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.5]{slzi}
+			\caption{\textcolor{BurntOrange}{B. E. Murillo}  - \textit{Svätý Peter v slzách}}
+
+		\end{figure}%
+		\column{0.5\textwidth}
+
+		\begin{figure}
+			\includegraphics[scale=0.5]{filo}
+			\caption{\textcolor{BurntOrange}{S. Rosa} - \textit{Filozofia}}
+		\end{figure}
+	\end{columns}
+\end{frame}
+\begin{frame}{\small \textcolor{red}{Barok} / \Large Námety}
+	\subsubsection{Námety}
+	\begin{itemize}
+		\item Náboženské výjavy
+		\item Mýtologické postavy
+	\end{itemize}
+	\begin{columns}
+		\kern0pt
+		\column{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.7]{golias}
+			\caption{\textcolor{BurntOrange}{O. Gentileschi} - \textit{Dávid a Goliáš}}
+		\end{figure}%
+		\column{0.5\textwidth}
+
+		\begin{figure}
+			\includegraphics[scale=0.5]{pazzo}
+			\caption{\textcolor{BurntOrange}{M. Caravaggio} - \textit{Bakchus}}
+		\end{figure}
+	\end{columns}
+
+\end{frame}
+\begin{frame}{\small \textcolor{red}{Barok} / \Large Predstavitelia}
+	\subsubsection{Predstavitelia}
+	\begin{itemize}
+		\item Rembrandt van Rijn
+		\item Jan Vermeer
+		\item Anthony van Dyck
+		\item Michelangelo Merisi da Caravaggio
+	\end{itemize}
+	\begin{columns}
+		\kern0pt
+		\column{0.33\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.5]{hlidka}
+			\vskip 1mm
+			\caption{\centering \textcolor{BurntOrange}{Rembrandt} - \textit{Nočná hliadka}}
+		\end{figure}%
+		\column{0.33\textwidth}
+
+		\begin{figure}
+			\includegraphics[scale=0.45]{milk}
+			\caption{\centering \textcolor{BurntOrange}{Jan Vermeer} - \textit{Mliekarka}}
+		\end{figure}%
+		\column{0.33\textwidth}
+
+		\begin{figure}
+
+			\includegraphics[scale=0.275]{oddych}
+			\vskip 1mm
+			\caption{\centering \textcolor{BurntOrange}{Anthony van Dyck} - \textit{Prestávka na úteku do Egypta}}
+		\end{figure}
+	\end{columns}
+		
+\end{frame}
+\begin{frame}{Klasicizmus}
+	\subsection{Klasicizmus}
+	\begin{itemize}
+		\item Vznikol vo Francúzsku
+		\item Antické umenie
+		\item Po objavení Pompejí
+		\item Prestali sa používať náboženské výjavy
+		\item Realizmus
+	\end{itemize}
+	\begin{columns}
+		\kern0pt
+		\column{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=0.5]{horac}
+			\caption{\textcolor{BurntOrange}{Jacques-Louis David} - \textit{Sľub Horáciov}}
+		\end{figure}%
+		\column{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[scale=1.25]{og}
+			\vskip 1mm
+			\caption{\centering \textcolor{BurntOrange}{Joseph-Marie Vien} - \textit{Rozlúčka Hektora a Andromachy}}
+		\end{figure}%
+
+	\end{columns}
 \end{frame}
 \begin{frame}
 	\frametitle{Zdroje}
@@ -315,11 +555,16 @@
 			\item Briggs, Martin Shaw. Baroque architecture. TF Unwin, 1913.
 		\end{itemize}
 		\large \item INTERNET
-		\begin{itemize}
-			\tiny
-			\item   \url{https://www.britannica.com/art/Western-literature/The-17th-century}
-			\item   \url{https://en.wikipedia.org/wiki/17th\_century\_in\_literature}
-			\normalsize
+		\begin{itemize}\tiny
+			
+			\item   \url{https://www.britannica.com/art/Western-literature/The-17th-century}%
+			\item   \url{https://en.wikipedia.org/wiki/17th\_century\_in\_literature}%
+			\item   \url{https://www.britannica.com/art/Neoclassical-architecture}
+			\item   \url{https://beliana.sav.sk/heslo/klasicizmus}
+			\item   \url{https://vytvarnavychova.sk/57-klasicizmus}
+			\item   \url{https://www.britannica.com/art/Baroque-art-and-Architecture}
+			\item   \url{https://classicfm.com/discover-music/periods-genres/baroque}
+			\item   \url{https://baroque.org/baroque/whatis}
 		\end{itemize}
 	\end{itemize}
 \end{frame}

@@ -3,6 +3,8 @@
 \beamer@subsectionintoc {1}{1}{Barok}{4}{0}{1}
 \beamer@subsubsectionintoc {1}{1}{1}{Nástroje}{5}{0}{1}
 \beamer@subsubsectionintoc {1}{1}{2}{Skladatelia}{6}{0}{1}
+\beamer@subsectionintoc {1}{2}{Klasicizmus}{7}{0}{1}
+\beamer@subsubsectionintoc {1}{2}{1}{Skladatelia}{8}{0}{1}
 \beamer@sectionintoc {2}{Literatúra}{9}{0}{2}
 \beamer@subsectionintoc {2}{1}{17. storočie}{10}{0}{2}
 \beamer@subsubsectionintoc {2}{1}{1}{Významní spisovatelia 17. storočia}{11}{0}{2}
@@ -10,4 +12,13 @@
 \beamer@subsubsectionintoc {2}{2}{1}{Významní spisovatelia 18. storočia}{13}{0}{2}
 \beamer@sectionintoc {3}{Architektúra}{14}{0}{3}
 \beamer@subsectionintoc {3}{1}{Baroková architektúra}{15}{0}{3}
-\beamer@sectionintoc {4}{Zdroje}{16}{0}{4}
+\beamer@subsubsectionintoc {3}{1}{1}{Raný barok}{16}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{2}{Vrcholný barok}{17}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{3}{Neskorý barok}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Klasicizmus}{19}{0}{3}
+\beamer@sectionintoc {4}{Výtvarné umenie}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Barok}{21}{0}{4}
+\beamer@subsubsectionintoc {4}{1}{1}{Námety}{22}{0}{4}
+\beamer@subsubsectionintoc {4}{1}{2}{Predstavitelia}{23}{0}{4}
+\beamer@subsectionintoc {4}{2}{Klasicizmus}{24}{0}{4}
+\beamer@sectionintoc {5}{Zdroje}{25}{0}{5}
