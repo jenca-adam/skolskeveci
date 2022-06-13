@@ -21,4 +21,9 @@
 \beamer@subsubsectionintoc {4}{1}{1}{Námety}{22}{0}{4}
 \beamer@subsubsectionintoc {4}{1}{2}{Predstavitelia}{23}{0}{4}
 \beamer@subsectionintoc {4}{2}{Klasicizmus}{24}{0}{4}
-\beamer@sectionintoc {5}{Zdroje}{25}{0}{5}
+\beamer@sectionintoc {5}{Kvíz}{25}{0}{5}
+\beamer@subsectionintoc {5}{1}{Hudba}{26}{0}{5}
+\beamer@subsectionintoc {5}{2}{Literatúra}{30}{0}{5}
+\beamer@subsectionintoc {5}{3}{Architektúra}{34}{0}{5}
+\beamer@subsectionintoc {5}{4}{Výtvarné umenie}{38}{0}{5}
+\beamer@sectionintoc {6}{Zdroje}{43}{0}{6}

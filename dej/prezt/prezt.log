@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.5)  12 JUN 2022 15:32
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Arch Linux) (preloaded format=xelatex 2022.5.5)  13 JUN 2022 20:15
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1184,8 +1184,8 @@ Overfull \hbox (21.89998pt too wide) in paragraph at lines 207--207
 ]
 File: milton.jpg Graphic file (type bmp)
 <milton.jpg>
-File: molier.jpg Graphic file (type bmp)
-<molier.jpg>
+File: dekart.jpg Graphic file (type bmp)
+<dekart.jpg>
  [11
 
 ]
@@ -1297,10 +1297,116 @@ File: og.jpeg Graphic file (type bmp)
 <og.jpeg>
  [24
 
+] [25
+
+]
+File: vivaldi.jpg Graphic file (type bmp)
+<vivaldi.jpg>
+ [26
+
+]
+File: vivaldi.jpg Graphic file (type bmp)
+<vivaldi.jpg>
+ [27
+
+]
+File: music.png Graphic file (type bmp)
+<music.png>
+ [28
+
+]
+File: music.png Graphic file (type bmp)
+<music.png>
+ [29
+
+]
+File: lost.jpg Graphic file (type bmp)
+<lost.jpg>
+ [30
+
+]
+File: lost.jpg Graphic file (type bmp)
+<lost.jpg>
+ [31
+
+]
+File: cervo.jpg Graphic file (type bmp)
+<cervo.jpg>
+ [32
+
+]
+File: cervo.jpg Graphic file (type bmp)
+<cervo.jpg>
+ [33
+
+]
+File: ultra.jpg Graphic file (type bmp)
+<ultra.jpg>
+
+Overfull \hbox (6.95222pt too wide) in paragraph at lines 709--709
+[][]  
+ []
+
+[34
+
+]
+File: ultra.jpg Graphic file (type bmp)
+<ultra.jpg>
+
+Overfull \hbox (6.95222pt too wide) in paragraph at lines 726--726
+[][]  
+ []
+
+[35
+
+]
+File: bern.jpg Graphic file (type bmp)
+<bern.jpg>
+ [36
+
+]
+File: bern.jpg Graphic file (type bmp)
+<bern.jpg>
+ [37
+
+]
+File: palette.png Graphic file (type bmp)
+<palette.png>
+ [38
+
+]
+File: palette.png Graphic file (type bmp)
+<palette.png>
+ [39
+
+]
+File: pazzo.jpg Graphic file (type bmp)
+<pazzo.jpg>
+
+Overfull \hbox (5.1981pt too wide) in paragraph at lines 813--813
+[][]  
+ []
+
+[40
+
+]
+File: pazzo.jpg Graphic file (type bmp)
+<pazzo.jpg>
+
+Overfull \hbox (5.1981pt too wide) in paragraph at lines 831--831
+[][]  
+ []
+
+[41
+
+] [42
+
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 570.
- [25
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 862.
+ [43
+
+] [44
 
 ]
 \tf@nav=\write6
@@ -1358,15 +1464,15 @@ LaTeX Info: Redefining \sffamily on input line 20.
 LaTeX Info: Redefining \ttfamily on input line 20.
 )
 Package rerunfilecheck Info: File `prezt.out' has not changed.
-(rerunfilecheck)             Checksum: C01F027FE6911F73F0CF7AFC8C1B681E;1397.
+(rerunfilecheck)             Checksum: EF2FB333402198AB2F904C076BB07572;1925.
  ) 
 Here is how much of TeX's memory you used:
- 26171 strings out of 476156
- 547241 string characters out of 5814964
- 887367 words of memory out of 5000000
- 46405 multiletter control sequences out of 15000+600000
+ 26301 strings out of 476156
+ 548977 string characters out of 5814964
+ 889679 words of memory out of 5000000
+ 46535 multiletter control sequences out of 15000+600000
  477719 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,15n,122p,442b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on prezt.pdf (25 pages).
+Output written on prezt.pdf (44 pages).

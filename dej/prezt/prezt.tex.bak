@@ -2,7 +2,7 @@
 \usepackage{polyglossia}
 \usepackage{multicol}
 \setdefaultlanguage{slovak}
-\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\setbeamertemplate{caption}{\centering\raggedright\insertcaption\par}
 \setbeamerfont{caption}{size=\footnotesize}
 \setbeamerfont{section in toc}{size=\small}
 \setbeamerfont{subsection in toc}{size=\footnotesize}
@@ -215,7 +215,7 @@
 		\bigskip
 		\item Lope de Vega
 		\bigskip
-		\item René Descartes
+		\item John Fletcher
 		\bigskip
 		\item Molière
 	\end{itemize}
@@ -225,8 +225,8 @@
 		\caption{John Milton}
 	\end{figure}%
 	\begin{figure}
-		\includegraphics[scale=0.35]{dekart}
-		\caption{René Descartes}
+		\includegraphics[scale=0.25]{molier}
+		\caption{Molière}
 	\end{figure}
 
 	\end{columns}
@@ -545,296 +545,6 @@
 
 	\end{columns}
 \end{frame}
-\section{Kvíz}
-\frame{\sectionpage}
-\begin{frame}
-	\subsection{Hudba}
-	\textbf{HUDBA}
-	\vskip 3mm
-	Kto \textit{nepatril} medzi skladateľov baroku?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item J. S. Bach
-		\item A. Vivaldi
-		\item G. F. Händel
-		\item W. A. Mozart
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=1.75]{vivaldi}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{HUDBA}
-	\vskip 3mm
-	Kto \textit{nepatril} medzi skladateľov baroku?
-	\begin{columns}
-	\column{0.5\textwidth}
-
-	\begin{enumerate}
-		\item J. S. Bach
-		\item A. Vivaldi
-		\item G. F. Händel
-		\textcolor{ForestGreen}{\item[\textcolor{ForestGreen}{4.}] W. A. Mozart}
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=1.75]{vivaldi}
-
-	\end{columns}
-
-\end{frame}
-\begin{frame}
-	\textbf{HUDBA}
-	\vskip 3mm
-	Kto zložil \href{https://www.gtsforum.xyz/kviz1.mp3}{túto skladbu} ?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item C. Monteverdi
-		\item J. Haydn
-		\item L. van Beethoven
-		\item N. Paganini
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.5]{music}
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{HUDBA}
-	\vskip 3mm
-	Kto zložil \href{https://www.gtsforum.xyz/kviz1.mp3}{túto skladbu} ?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item C. Monteverdi
-		\textcolor{ForestGreen}{\item[\textcolor{ForestGreen}{2.}] J. Haydn}\setcounter{enumi}{2}
-		\item L. van Beethoven
-		\item  N. Paganini
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.5]{music}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\subsection{Literatúra}
-	\textbf{LITERATÚRA}
-	\vskip 3mm
-	Kto  napísal \textit{Stratený raj}?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item W. Shakespeare
-		\item D. Defoe
-		\item J. Milton
-		\item J. Swift
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.75]{lost}
-
-	\end{columns}
-\end{frame}
-
-\begin{frame}
-	\textbf{LITERATÚRA}
-	\vskip 3mm
-	Kto  napísal \textit{Stratený raj}?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item W. Shakespeare
-		\item D. Defoe
-		\textcolor{ForestGreen}{\item[\textcolor{ForestGreen}{3.}] J. Milton}\setcounter{enumi}{3}
-
-		\item J. Swift
-
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.75]{lost}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{LITERATÚRA}
-	\vskip 3mm
-	Čo je najvýznamnejšie dielo Miguela de Cervantes?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Don Quijote
-		\item Hamlet
-		\item Rozprava o Metóde
-		\item Šialenstvo vo Valencii
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.25]{cervo}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{LITERATÚRA}
-	\vskip 3mm
-	Čo je najvýznamnejšie dielo Miguela de Cervantes?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item[\textcolor{ForestGreen}{1.}] \textcolor{ForestGreen}{Don Quijote}\setcounter{enumi}{1}
-		\item Hamlet
-		\item Rozprava o Metóde
-		\item Šialenstvo vo Valencii
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.25]{cervo}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\subsection{Architektúra}
-	\textbf{ARCHITEKTÚRA}
-	\vskip 3mm
-	V akom štýle bola postavená táto stavba?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Skorý barok
-		\item Vrcholný barok
-		\item Churriguerizmus
-		\item Klasicizmus
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.2]{ultra}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{ARCHITEKTÚRA}
-	\vskip 3mm
-	V akom štýle bola postavená táto stavba?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Skorý barok
-		\item Vrcholný barok
-		\item [\textcolor{ForestGreen}{3.}] \textcolor{ForestGreen}{Churriguerizmus}\setcounter{enumi}{3}
-		\item Klasicizmus
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.2]{ultra}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{ARCHITEKTÚRA}
-	\vskip 3mm
-	Kto bol hlavný cirkevný architekt počas obdobia vrcholného baroka?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Urban VIII.
-		\item Carlo Maderno
-		\item Gian Lorenzo Bernini
-		\item Filippo Juvarra
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=1]{bern}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{ARCHITEKTÚRA}
-	\vskip 3mm
-	Kto bol hlavný cirkevný architekt počas obdobia vrcholného baroka?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Urban VIII.
-		\item Carlo Maderno
-		\item[\textcolor{ForestGreen}{3.}] \textcolor{ForestGreen}{Gian Lorenzo Bernini}\setcounter{enumi}{3}
-		\item Filippo Juvarra
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=1]{bern}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\subsection{Výtvarné umenie}
-	\textbf{VÝTVARNÉ UMENIE}
-	\vskip 3mm
-	Čo \textit{nevyužívalo} barokové umenie ?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Dramatickosť
-		\item Inšpiráciu antikou
-		\item Mýtologické námety
-		\item Biblické výjavy
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=1]{palette}
-
-	\end{columns}
-\end{frame}
-\begin{frame}
-	\textbf{VÝTVARNÉ UMENIE}
-	\vskip 3mm
-	Čo \textit{nevyužívalo} barokové umenie ?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item Dramatickosť
-		\item[\textcolor{ForestGreen}{2.}] \textcolor{ForestGreen}{Inšpiráciu antikou} \setcounter{enumi}{2}
-		\item Mýtologické námety
-		\item Biblické výjavy
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=1]{palette}
-
-	\end{columns}
-\end{frame}
-
-\begin{frame}
-	\textbf{VÝTVARNÉ UMENIE}
-	\vskip 3mm
-	Kto namaľoval tento obraz?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item M. Caravaggio
-		\item J. Vermeer
-		\item Rembrandt
-		\item J. M. Vien
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.75]{pazzo}
-	\end{columns}
-
-\end{frame}
-
-\begin{frame}
-	\textbf{VÝTVARNÉ UMENIE}
-	\vskip 3mm
-	Kto namaľoval tento obraz?
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{enumerate}
-		\item[\textcolor{ForestGreen}{1.}] \textcolor{ForestGreen}{M. Caravaggio} \setcounter{enumi}{1}
-		\item J. Vermeer
-		\item Rembrandt
-		\item J. M. Vien
-	\end{enumerate}
-	\column{0.5\textwidth}
-		\includegraphics[scale=0.75]{pazzo}
-	\end{columns}
-
-\end{frame}
-\begin{frame}
-    \begin{beamercolorbox}[sep=12pt,center]{sectionColor}%
-        KONIEC\par
-    \end{beamercolorbox}
-\end{frame}
-
 \begin{frame}
 	\frametitle{Zdroje}
 	\section{Zdroje}
@@ -849,8 +559,6 @@
 			
 			\item   \url{https://www.britannica.com/art/Western-literature/The-17th-century}%
 			\item   \url{https://en.wikipedia.org/wiki/17th\_century\_in\_literature}%
-			\item	\url{https://en.wikipedia.org/wiki/Spanish\_Baroque\_architecture}
-
 			\item   \url{https://www.britannica.com/art/Neoclassical-architecture}
 			\item   \url{https://beliana.sav.sk/heslo/klasicizmus}
 			\item   \url{https://vytvarnavychova.sk/57-klasicizmus}
@@ -859,10 +567,5 @@
 			\item   \url{https://baroque.org/baroque/whatis}
 		\end{itemize}
 	\end{itemize}
-\end{frame}
-\begin{frame}
-    \begin{beamercolorbox}[sep=12pt,center]{sectionColor}%
-        Ďakujeme za pozornosť\par
-    \end{beamercolorbox}
 \end{frame}
 \end{document} 
