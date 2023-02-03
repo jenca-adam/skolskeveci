@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[slovak]{babel}
+\usepackage{enumitem}
+\begin{document}
+\noindent
+Adam Jenča\\
+Tercia A\\
+SŠ Novohradská, Bratislava\\
+Príklad Z9-I-3\\
+\vskip 10mm \noindent
+Najprv skúsme prvý prípad, v ktorom chceme dostať päticu trojok.\\
+Prvé číslo (3) nemusíme meniť. \\
+Druhé (8) najprv podelíme 2 a potom odčítame 1. Kúzelníka 1 a 2 sme použili raz, takže nám pri oboch zostávajú ešte 4 použitia. \\
+Od tretieho (9) najprv odčítame 1 a potom postupujeme rovnako ako pri osmičke. Kúzelníka 1 sme teraz použili celkom 3-krát (zostáva 2) a kúzelníka 2 2-krát(zostáva 3).\\
+Štvrté (2) vynásobíme tromi a podelíme dvomi. Kúzelníka 1 sme použili spolu 3-krát (zost. 2), kúzelníka 2 rovnako, a kúzelníka 3 raz (zost. 4).\\
+Od piateho (4) iba odčítame 1, na čo nám zvyšné použitia kúzelníka 1 bohate postačia.\\
+\textbf{Prvý prípad je teda možný}\\
+
+Pri druhom prípade začnime najproblematickejšim číslom,  ktorým je 3.\\
+Tu máme dve možnosti:
+\begin{enumerate}[label = \alph*)]
+	\item $(3\times3) - 1 - 1 - 1 - 1 = 5$ (kúz.3 raz a kúz.1 4-krát), alebo
+	\item $(((3\times3) - 1):2:2)\times 3-1 = 5$ (kúz. 1 2-krát, kúz.2 2-krát a kúz.3 2-krát)
+\end{enumerate}
+Musíme si ale vybrať tú druhú, pretože z prvou možnosťou by nám nevystačili použitia kúzelníka 1 pri menení čísla 9, ktoré sa mení podobným postupom ako číslo 3 bez prvého kroku(bez kúzelníka 3).\\
+Keď ideme meniť číslo 9, každého kúzelníka môžeme teda použiť ešte 3-krát.\\
+Nemôžeme ale postupovať podobne ako pri prvej možnosti zmeny čísla 3, pretože na ňu potrebujeme 4 použitia prvého kúzelníka.\\
+Musíme teda siahnuť po druhej možnosti ako aj pri čísle 3 aj pri čísle 9.\\
+Pri čísle 9 použijeme teda kúzelníka 1  2-krát, rovnako aj kúzelníka 2 , a kúzelníka 3 použijeme raz.\\
+Teraz sa pozrime na číslo 8, ktoré meníme podobne ako deviatku, ale bez prvého kroku(odčítanie 1).\\
+Keď ho ideme meniť, máme k dispozícii 1 použitie kúzelníkov 1 a 2, a dve použitia kúzelníka 3.\\
+Zmeniť ho ale nejde, pretože potrebujeme dve použitia kúzelníka 2, ale k dispozícii máme iba 1.\\
+\textbf{Druhý prípad je z toho dôvodu nemožný}
+
+
+
+\end{document}
