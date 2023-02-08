@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.3" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0">
+ <manifest:file-entry manifest:full-path="/" manifest:version="1.3" manifest:media-type="application/vnd.oasis.opendocument.presentation"/>
+ <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Thumbnails/thumbnail.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000000000000640000005873E2C9F11171675B2.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000000000003FC000004C838CCE3D7A52599BE.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000000000000EB0000012CC6B2A57184686705.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/100000000000022600000226AED5CCE0AF631BB8.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000000000003200000047C0E21ED23546CE804.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000000000000121000000C8A19EC48A57F99B05.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000000000000559000007695A6CF95B77308804.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000000000000320000003C2B27499942916F67D.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000000000000320000003CEC05DEA857AB38AB7.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000000000000400000001CFD431608D73925B40.jpg" manifest:media-type="image/jpeg"/>
+ <manifest:file-entry manifest:full-path="Media/libiamo.ogg" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/titan.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/tausend.ogg" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/fella.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/237.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/bolo.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/dovorzaku.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/urclass.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/clairdelune.mp3" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Media/nothing.ogg" manifest:media-type="application/vnd.sun.star.media"/>
+ <manifest:file-entry manifest:full-path="Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration"/>
+ <manifest:file-entry manifest:full-path="styles.xml" manifest:media-type="text/xml"/>
+</manifest:manifest>
