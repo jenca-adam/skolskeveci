@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[slovak]{babel}
+\usepackage{amsfonts}
+\newcommand \nat{%
+	\mathbb{N}
+	}
+\newcommand \innat{%
+	\in\nat
+	}
+\usepackage[top=1in, bottom=1.25in, left=1.25in, right=1.25in]{geometry}
+\begin{document}
+\noindent
+\large
+Adam Jenča\\
+Tercia A\\
+SŠ Novohradská, Bratislava\\
+Príklad Z9-I-1\\
+\vskip 10mm \noindent
+Každý člen prvej postupnosti $a_n$ vyzerá takto:\\
+
+{ $a_n = 2023 + nd$, kde $d$ je diferencia prvej postupnosti.}\\
+\noindent
+V druhej je to podobne:\\
+
+{$b_n = 2023 + ne$, kde $e$ je diferencia druhej postupnosti.}\\\noindent
+Teraz od oboch postupností odčítame 2023, aby sa začínali v nule, na výsledku to nič nezmení.\\
+
+
+\noindent
+Označme si postupnosť spoločných čísel $c$.
+Pre každý člen postupnosti $c_i$ platí že 
+$$
+c_i = kd = ne ; \{k,n\}\subseteq \nat
+$$
+$c$ je aritmetická postupnosť, pretože keď sa dostaneme k prvému členu, $a_k$ a $b_n$  sú rovnaké, a teda môžeme postupnosti upraviť odčítaním $a_k$ zase na nuly.\\
+Označme si jej diferenciu $f$\\
+$c$ má 26 členov medzi 0 a 1000.\\
+Keď nerátame nulu, má 25 členov od 1 po 1000.\\
+$f$ bude teda $1000:25=40$.
+Označme si koeficient $d$ pri prvom člene $c$ $k_0$ a v tej istej situácii koeficient $e$ $n_0$\\
+Prvý prvok $c$ okrem nuly bude $$c_1=1f=d. k_0=e. n_0=40$$\\
+Vieme, že $d$ a $e$ sú v pomere $5:2$, teda $\frac{d}{e} = \frac{5}{2}$.\\
+To si upravíme cez $5d = 2e$ na $e=\frac{5}{2}d$,
+Vieme preto, že $$d. k_0 = \frac{5d}{2}n_0 = 40$$.
+Vynásobíme si všetko dvomi.
+$$2d. k_0 = 5d. n_0 = 80$$
+Vyberieme si odtiaľ rovnicu $2d. k_0 = 5d. n_0$.
+Teraz podelíme obe strany $d$:
+$$2k_0 = 5n_0$$
+Keďže $k_0 \innat$ aj $n_0\innat$, môžeme povedať, že $$2k_0 = 5n_0 = 10x; x\innat$$
+Pretože $40$ je najmenšie spoločné číslo, musia $k_0$ a $n_0$ byť najmenšie čísla spĺňajúce rovnicu vyššie.\\
+Najmenšie možné $x = 1$. Teda $2k_0 = 5n_0 = 10$.
+Preto $k_0 = 5$ a $n_0 = 2$.
+Vieme, že 
+$$d. k_0 = 5d = 40$$
+\noindent Preto
+$$d = \frac{40}{5} =\mathbf{8}$$
+\noindent
+a $$e = \frac{5}{2}d=\frac{5}{2}. 8 = \frac{40}{2}=\mathbf{20}$$
+\noindent
+Rozdiel diferencií $\Delta_d=e-d=\mathbf{12}$.
+
+
+\end{document}

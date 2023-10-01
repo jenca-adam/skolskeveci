@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage[slovak]{babel}
+\begin{document}
+\noindent
+Adam Jenča\\
+Tercia A\\
+SŠ Novohradská, Bratislava\\
+Príklad Z9-I-4\\
+\vskip 10mm \noindent
+Aby sme dostali najmenšií možný výsledok, musia $a$ aj $b$ byť v tvare
+$7^x\times11^y$, pretože konštantné členy v rovnici sú iba 7 a 11, a treba upraviť ich exponenty na rovnaké.\\
+Skúsme zistiť, aké najmenšie môžu $x$ a $y$ byť pre $a$.
+
+Keďže $7a^3=11b^5$, vieme, že $3x+1$ musí byť deliteľné piatimi, pretože $7\times(7^{3x})$ musí byť piata mocnina.\\
+Toto platí pre najmenšie $x = 3$,kde    ($3x+1 = 10$).\\
+Vieme aj, že $3y-1$ musí byť deliteľné piatimi, pretože $\frac{11^{3x}}{11}$ musí byť piata mocnina.\\
+Najmenšie také $y$ je $2$,kde ($3y-1 = 5$).\\
+$a$ je teda rovné $\mathbf{7^3\times11^2 = 41503}$.\\
+Teraz zistíme to isté pre $b$.
+Vieme, že v tomto prípade musí byť $5x - 1$ deliteľné 3 , pretože $\frac{11^{5x}}{11}$ musí byť tretia mocnina.\\
+Najmenšie také $x$ je $2$, kde ($5x-1 = 9$).\\
+$5y+1$ musí byť tiež deliteľné tromi, pretože $11\times{11^{5x}}$ musí byť tretia mocnina.\\
+Najmenšie také $y$ je $1$, kde ($5y+1 = 6$)\\
+$b$ je teda rovné $\mathbf{7^2 \times 11 = 539}$\\
+Teraz si to overíme.
+Na ľavej strane máme $7a^3 = 7\cdot(7^3\cdot11^2)^3=7\cdot7^9\cdot11^{6}=7^{10}\cdot11^{6}$\\
+Na pravej strane je  $11b^5 = 11\cdot(11\cdot7^2)^5=11\cdot11^5\cdot7^{10}=7^{10}\cdot11^{6}$\\
+Ako vidno, obe strany sú rovnaké. Naše riešenie je najmenšie, pretože akékoľvek nižšie by nemohli zmeniť exponenty na rovnaké.
+
+\end{document}

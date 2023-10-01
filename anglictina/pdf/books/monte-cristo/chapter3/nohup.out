@@ -1,0 +1,16 @@
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile chapter.pdf -- page1.pdf - page2.pdf - page3.pdf - page4.pdf - worksheet.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'chapter.pdf'.
+          ----
+  pdfjam: This is pdfjam version 3.03.
+  pdfjam: Reading any site-wide or user-specific defaults...
+          (none found)
+  pdfjam: Effective call for this run of pdfjam:
+          /usr/bin/pdfjam --outfile chapter.pdf -- page1.pdf - page2.pdf - page3.pdf - page4.pdf - worksheet.pdf - 
+  pdfjam: Calling /usr/bin/pdflatex...
+  pdfjam: Finished.  Output was written to 'chapter.pdf'.

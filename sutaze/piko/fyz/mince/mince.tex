@@ -1,0 +1,107 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{bm}
+\begin{document}
+\begin{center}
+	\huge \textbf{Krtince z mincí}\\
+	\large \texttt{Príklad 4}\\
+	\large \texttt{Adam Jenča}\\
+	\large \texttt{Sekunda A}\\
+	\large \texttt{SŠ Novohradská 3, Bratislava}\\
+\end{center}
+\section{Úvod}
+Mojim cieľom bolo zistiť, koľko mincí treba na stlačenie klávesy. 
+Používal som klávesy enter, pravý shift a medzerník s 1-centovými mincami.
+\section{Postup}
+Pre každú klávesu:
+\begin{enumerate}
+\item Opakujeme 5-krát:
+\begin{enumerate}
+\item Kladieme mince na klávesu až kým sa nestlačí. Pozorne počítame mince.
+\item Keď sa klávesa pod váhou mincí stlačí, zapíšeme si počet mincí $M_n$
+\item Vypočítame priemer po $n$-tom meraní pomocou vzorca
+	\[
+		\overline{M_n}=\frac{\displaystyle{\sum_{i=1}^N M_i}} = \frac{M_1+M_2+\dots+M_n}{n}
+	\]
+\end{enumerate}
+\item Vypočítame priemer $\overline{M}$ pomocou vzorca 
+	\[
+		\overline{M}=\frac{\displaystyle{\sum_{i=1}^5 M_i}}{5}=\frac{M_1+M_2+\dots+M_5}{5} 
+	\]
+\item Priemer zapíšeme do tabuľky
+\end{enumerate}
+\section{Tabuľky}
+\subsection{Klávesa Enter}
+\begin{tabular}{|c|c|>{\bfseries}c|}
+	\hline
+	Číslo merania&Počet mincí&\normalfont{Priemer po $n$-tom meraní}\\
+	\hline
+	$1$&$22$&22\\
+	\hline
+	$2$&$25$&23.5\\
+	\hline
+	$3$&$26$& 24.$\bm {\overline{3}}$\\
+	\hline
+	$4$&$29$&25.5\\
+	\hline
+	$5$&$28$&26\\
+	\hline
+\end{tabular}\\
+Pre klávesu \textbf{Enter} nám vyšiel priemer $\bm {26}$
+\subsection{Klávesa Ľavý Shift}
+\begin{tabular}{|c|c|>{\bfseries}c|}
+	\hline
+	Číslo merania&Počet mincí&\normalfont{Priemer po $n$-tom meraní}\\
+	\hline
+	$1$&$32$&32\\
+	\hline
+	$2$&$27$&29.5\\
+	\hline
+	$3$&$30$& 29.$\bm {\overline{6}}$\\
+	\hline
+	$4$&$29$&29.5\\
+	\hline
+	$5$&$23$&28.2\\
+	\hline
+\end{tabular}\\
+Pre klávesu \textbf {Shift} nám vyšiel priemer $\bm {28.2}$
+\subsection{Klávesa Medzerník}
+\begin{tabular}{|c|c|>{\bfseries}c|}
+	\hline
+	Číslo merania&Počet mincí&\normalfont{Priemer po $n$-tom meraní}\\
+	\hline
+	$1$&$20$&20\\
+	\hline
+	$2$&$30$&25\\
+	\hline
+	$3$&$29$& 26.$\bm {\overline{3}}$\\
+	\hline
+	$4$&$30$&27.25\\
+	\hline
+	$5$&$22$&26.2\\
+	\hline
+\end{tabular}\\
+Pre klávesu \textbf {Medzerník} nám vyšiel priemer $\bm {26.2}$
+\subsection{Všetky klávesy}
+\begin{tabular}{|c|>{\bfseries}c|}
+	\hline
+	Klávesa&\normalfont{Priemerný počet mincí}\\
+	\hline
+	Enter&26\\
+	\hline
+	Ľavý Shift&26.2\\
+	\hline
+	Medzerník&28.2\\
+	\hline
+\end{tabular}
+\subsection{Celkový priemer}
+	\[
+		\overline{c} = \frac{\displaystyle \sum ^{15}_{i=0}V_i}{15} = \frac{22+25+26+29+28+32+27+30+29+23+20+30+29+30+22}{15} = 26.8%UF 
+	\]
+	kde $V$ je n-tica všetkých meraní.
+\section{Záver}
+Vyšlo mi, že na stlačenie priemernej klávesy treba $26.8$ jednocentovej mince.
+\textbf{Čo som mohol zlepšiť?}\\
+Mohol som použiť mince s väčšou hodnotou ako 1-centovou (napríklad 10-centové) aby som nestaval také obrovské pyramídy, že s pomaly nezmestia na klávesu.
+Mohol som experiment vyskúšať na rôznych klávesniciach rôznych typov a výsledok spriemerovať pre dosiahnutie všeobecnejšieho výsledku
+\end{document}

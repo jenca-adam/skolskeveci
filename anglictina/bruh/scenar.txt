@@ -1,0 +1,65 @@
+-- SCRIPT -- 
+
+** Characters
+	- O1
+	- O2
+	- N1
+	- N2
+
+* empty scene *
+*N1 and N2 come in*
+N2 : Welcome everybody!
+N2 : Here <N1> is one of the world's best scientists, and he discovered a TIME MACHINE!
+N1 : * bows *
+N2 : * pause *
+N2 : He is also a great fan of theatre, and so he contacted me, a scriptwriter and free-time theatre historian, to go and see what Elizabethian theatre looked like.
+N2 : Is there anything you'd like to add , <N1>
+N1 : No, not really.
+N2 : So, with no further ado, we'll take you all guys to the past!
+N1 : Okay, are you ready?
+N1 : 3, 2, 1, Teleport!
+* a stupid sound effect *
+* O1 and O2 appear out of thin air*
+O1 (in Slavic accent): To be or not to be  — that is the question: Whether ’tis nobler in the mi --
+O2 : Boo! You suck! You are a pathetic excuse for an actor! *throws something on O2*
+O2 *starts eating his lunch*
+O1 : --nd to suffer the slings and arrows of outrageous fortu--
+O2 : Please stop it! Your Slavic accent is too silly for me to Handle!
+O2 *drinks water*
+O1 : --ne, Or to take arms against a sea of troubles and, by op--
+O2 : And, by the way, this play is so bad. That "Shakespeare" guy needs to stop.
+O1 : --osing, end them.
+O2 : I'd like for this play to end.
+
+N2 : As you can see, the theatres in the Elizabethian times were completely different.
+N1 : Yes, yes, I think it's shocking!
+
+*O1 and O2 turn their heads to N1 and N2*
+
+O2 : Who are you? Your clothes are so funny! You look like clowns!
+
+N1 : We come from the future, from 2023 Anno Domini.
+
+O2 : Yes, I heard that over at Fordwich, something similar happened.
+O2 : Ain't you crazy by the way?
+
+N1 : *whispers* I'm starting to get a bad feeling about this.
+
+O2 : I think you are.
+
+N2 : Please ,<N1>, take us away from this place!
+N1 : OK.
+*stupid sound effect but in reverse*
+
+N1 and N2 disappear
+
+O2 (to O1): Hey, Fred, can we continue? I need to yell at somebody.
+O1: A'ight!(normal accent)
+O1: To die, to sleep— No more — and by a sleep to say we end --
+O2: Man, you make my head ache.
+
+*THE END*
+
+
+
+bruh

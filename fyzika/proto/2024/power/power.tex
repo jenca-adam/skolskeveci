@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[slovak]{babel}
+\usepackage{graphicx}
+\begin{document}
+\title {\textbf{Laboratórny protokol - Meranie Vlastného výkonu}}
+\author{Adam Jenča}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5}
+\maketitle
+\newpage
+\section{Úvod}
+V tomto experimente sme mali zistiť svoj vlastný výkon počas pokojnej chôdze a behu hore schodmi.
+Výkon $P$ je definovaný ako $\frac{W}{t}$, kde $W$ je práca vykonaná za určitý čas $t$.
+Práca je zadefinovaná ako $F\cdot s$, kde $F$ je sila, ktorá pôsobí na určitej dráhe $s$.
+\section{Pomôcky a postup}
+\subsection{Pomôcky}
+\begin{itemize}
+	\item Váha
+	\item Stopky
+	\item Pásmové meradlo
+\end{itemize}
+\subsection{Postup}
+\begin{enumerate}
+	\item Odmeriame výšku schoda $h_s$ pre 3 rôzne schody. Tieto výšky spriemerujeme do $\overline{h_s}$.
+	\item Zistíme a zapíšeme si počet schodov $n_s$ na určitom úseku schodiska, na ktorom budeme experiment vykonávať.
+	\item Zmeriame a zapíšeme svoju hmotnosť $m$.
+	\item Odmeriame a zapíšeme svoj čas pri chôdzi($t_c$) a pri behu($t_b$)
+\end{enumerate}
+\section{Údaje a výpočty}
+Zmerali sme nasledujúce údaje:
+$\overline{h_s}=14,5\ cm$\\
+$n_s=48$\\
+$m=50 kg$\\
+$t_c=16,49s$\\
+$t_b=9,95s$\\
+\subsection{Výpočty}
+V tomto prípade pôsobíme proti tiažovej sile ($F_G$). Tiažovú silu vypočítame z hmotnosti ako $F_G = m\cdot g$, kde $g\approx 9,81 \frac{N}{kg}$.
+Keďže $m=50\ kg$, $F_G = 9,81\ \frac{N}{kg}\cdot 50\ kg = 490,5\ N$.\\
+Dráhu $s$, na ktorej pôsobíme proti $F_G$ (teda celkovú prekonanú výšku) vypočítame jednoducho ako $n_s\cdot\overline{h_s} = 48 \cdot 14,5\ cm = 696\ cm = 6,96\ m$.
+Vykonanú prácu vypočítame ako $W = F_G\cdot s = 490,5\ N \cdot 6,96\ m = 3413,88\ J$\\
+Nakoniec spočítame svoj výkon pri chôdzi $P_c = \frac{W}{t_c} = \frac{3413,88\ J}{16,49\ s}=\mathbf{207,027 W}$\\
+Podobne: $P_b = \frac{W}{t_b} = \frac{3413,88\ J}{9,95\ s} = \mathbf{343,105 W}$\\
+\section{Záver}
+Cieľom experimentu bolo zmerať svoj vlastný výkon počas behu a chôdze hore schodmi. Experiment vyšiel pomerne dobre, ale niektoré veci neboli úplne najlepšie:
+\begin{itemize}
+	\item Počas cesty hore sme museli prekonávať istú treciu silu oproti schodom. Toto mohlo spôsobiť zvýšenie výkonu oproti nameranej hodnote.
+	\item Úsek schodov nebol súvislý, museli sme prekonávať medziposchodia.
+	\item Meranie časov mohlo byť nepresné kvôli nedokonalému reakčného času merateľa.
+	\item Úsek schodov mohol mať inú výšku ako $n_s\cdot\overline{h_s}$, ak by niektoré schody boli výrazne odlišné od priemeru.
+\end{itemize}
+Vyšli nasledovné údaje:
+Výkon pri behu $P_b = \mathbf{343,105 W}$\\
+Výkon pri chôdzi $P_c = \mathbf{207,027 W}$
+\end{document}

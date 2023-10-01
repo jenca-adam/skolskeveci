@@ -1,0 +1,88 @@
+
+:fancy:EUROBANKOVKY
+
+
+
+:fancy:Seria  2002
+
+V roku 1999 vzniklo euro vo virtuálnej podobe (šeky a elektronická platba).
+
+Tri roky od zavedenia eura, v roku 2002, boli zavedené euro bankovky a mince.
+Bankovky boli nadizajnované Rakúšanom Robertom Kalinom.
+Boli každá inej farby a veľkosti a zobrazovali európsku architektúru: domy na jednej strane a mosty na druhej. Mosty mali byť vymyslené, ale neskôr sa zistilo, že ich Kalina odkopíroval z nejakej knihy. Aj kvôli tomu bola potrebná zmena dizajnu bankoviek.
+Prvky bankoviek tejto série boli: 
+ ▷ Vlajka EÚ 
+ ▶ Mapa Európy na rubovej strane 
+ ▷ Podpis súčasného prezidenta Európskej Centrálnej banky, 
+ ▶ Nápis EURO v latinke (EURO) a v gréčtine (ΕΥΡΩ) 
+ ▷ Skratka Európskej centrálnej banky v rôznych jazykoch (BCE, ECB, EZB, EKT, EKP)
+
+:table:2002bn
+
+:fancy:Seria    Europa
+
+V roku 2013 boli do obehu dané prvé bankovky novej série. Upgrade dizajnu spravil Reinhold Gerstetter, nemecký dizajnér bankoviek a známok.
+Pridali do dizajnu bankoviek niekoľko zmien, napr. Holografický portrét postavy z gréckej mýtológie Európy alebo zahrnutie 12 hviezd z vlajky EÚ do dizajnu.
+Tiež je na novej sérii viditeľný vzrast počtu členov Európskej Únie: K skratkám ECB pribudli ЕЦБ,BĊE,EKB a EBC. Bol pridaný nápis EURO v azbuke (EBPO).
+:table:europabn
+
+:fancy:Bezpecnostne
+:fancy:prvky
+
+Zᴀ́ᴋʟᴀᴅɴᴇ́ ᴘʀᴠᴋʏ   
+  ▷ Pevný papier
+  ▶ Vystupujúca tlač
+  ▷ Vodoznak s portrétom
+  ▶ Ochranný prúžok 
+  ▷ Hologram s portrétom
+  ▶ Mikrotlač
+Ďᴀʟšɪᴇ ᴘʀᴠᴋʏ
+  ▷ Hologramy - V pravej časti lícnej strany. Obsahuje:
+	1. Hodnotu bankovky
+        2. Znak €
+        3. Priehlbiny v tvare znaku €
+  ▶ Atrament meniaci farbu
+        Atrament na niektorých častiach bankovky mení farbu.
+  ▷ Kontrolný súčet:
+	Každá bankovka má sériové číslo, ktoré sa skladá z písmena a číslic. Ak písmeno nahradíme jeho hodnotou v ASCII tabuľke, sériové číslo bude deliteľné 9.
+  ▶ Infračervené svetlo
+	Ak na bankovku zasvietime infračerveným svetlom, niektoré časti(v závislosti od hodnoty) budú tmavé a iné svetlejšie.
+  ▷ Ultrafialové svetlo
+        Po zasvietení  UV svetlom na bankovku, niektoré časti(napr. 12 hviezd z vlajky EÚ) sa sfarbia.
+  ▶ Magnetický atrament
+        Atrament na niektorých miestach je zmagnetizovaný, napr. okno kostola na 20-eurovkách
+  ▷ Čiarový kód
+        Keď sa na bankovku pozrie proti svetlu, je vidno čiarový kód. Keď sa prekonvertuje cez rôzne zložité binárne operácie, získame hodnotu bankovky.
+
+:fancy: Postup    pri
+:fancy: vyrobe
+
+Najprv sa odohráva výroba papiera. €-bankovky sú vyrobené zo špeciálneho papiera z bavlnených vlákien, aby boli pevné, odolné a rozpoznateľné na dotyk
+Bankovky sa tlačia na veľké listy papiera, aby sa urýchlil proces tlače
+Potom sa  vytlačí ochranný prúžok, vodotlač a hologramy.
+V ďalšom kroku sa vytlačí pozadie.
+Potom sa pridá atrament meniaci farbu.
+Ďalej sa vytlačia obrázky a čiary na okrajoch bankovky.
+Úplne nakoniec sa na každú bankovku vytlačí jedinečné sériové číslo.
+
+Potom sa listy papiera uložia na kopy po 10 listov, narežú a uložia do krabíc, do ktorých sa zmestí presne 1000 bankoviek.
+Krabice sa buď uložia do trezorov alebo sa posunú národným bankám.
+
+:fancy: Odolnost    voci
+:fancy: poskodeniu
+
+Euro bankovky sú odolné voči
+  ▷ Treniu
+  ▶ Extrémne vysokým teplotám
+  ▷ Extrémne nízkym teplotám
+  ▶ Žehleniu
+  ▷ Praniu
+  ▶ Slnečnému svetlu
+  ▷ Silným kyselinám
+  ▶ Krčeniu
+𝐙𝐃𝐑𝐎𝐉𝐄:
+
+
+
+
+ 

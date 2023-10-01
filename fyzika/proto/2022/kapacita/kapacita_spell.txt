@@ -1,0 +1,24 @@
+  LABORATÓRNY PROTOKOL
+Meranie hmotnostnej tepelnej kapacity
+                           Adam Jenča, Sekunda
+1 Teoretický úvod
+Hmotnostná tepelná kapacita c je fyzikálna vlastnosť, popisujúca správanie sa
+danej látky, konkrétne koľko tepla Q musí určitá hmotnosť m (väčšinou 1 kg)
+danej látky prijať, aby sa jej teplota zmenila o t (väčšinou 1°C). Základná jed-
+notka c je kg·J◦ C
+2    Pomôcky
+  • Valček
+  • Voda
+  • Kadička
+  • Konvica
+  • Kalorimeter
+  • Teplomer
+3    Postup
+  1. Odvážime valček. Jeho hmotnosť mv = 100g si zapíšeme
+  2. Do kadičky nalejeme približne 150 ml vody
+  3. Odmeriame teplotu vody tH2 O = 16.5◦ C
+  4. Odvážime vodu. Jej hmotnosť mH2 o = 151, 1g si zapíšeme
+  5. Dáme do konvice zohrievať vodu.
+  6. Keď zovrie, ponoríme do nej valček na 5 minút(táto doba by mala stačiť
+     na nastatie tepelnej rovnováhy medzi vodou a valčekom)
+                                        1

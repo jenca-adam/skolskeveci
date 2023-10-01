@@ -1,0 +1,6 @@
+\documentclass{article}
+\usepackage{polyglossia}
+\setdefaultlanguage{slovak}
+\begin{document}
+Advent pochádza z latinského slova adventus - čo znamená príchod. V kresťanstve sa používa špeciálne pre príchod Ježiša, sviatok jeho narodenia, prípravy na cirkevné sviatky - Vianoce. Advent sa začína adventnou nedeľou, teda nedeľou medzi 27. novembrom a 3.decembrom, štyri týždne pred Vianocami. Končí sa po západe slnka na Štedrý večer. Symbolom adventného obdobia je veniec so štyrmi sviecami, ktoré sa postupne zapaľujú počast štyroch adventných nedieľ.
+\end{document}

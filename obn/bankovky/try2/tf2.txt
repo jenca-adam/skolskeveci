@@ -1,0 +1,213 @@
+
+ _____  _   _ ______  _____ ______   ___   _   _  _   __ _____  _   _  _   ____   __
+|  ___|| | | || ___ \|  _  || ___ \ / _ \ | \ | || | / /|  _  || | | || | / /\ \ / /
+| |__  | | | || |_/ /| | | || |_/ // /_\ \|  \| || |/ / | | | || | | || |/ /  \ V / 
+|  __| | | | ||    / | | | || ___ \|  _  || . ` ||    \ | | | || | | ||    \   \ /  
+| |___ | |_| || |\ \ \ \_/ /| |_/ /| | | || |\  || |\  \\ \_/ /\ \_/ /| |\  \  | |  
+\____/  \___/ \_| \_| \___/ \____/ \_| |_/\_| \_/\_| \_/ \___/  \___/ \_| \_/  \_/
+
+
+ _____              _           _____  _____  _____  _____ 
+/  ___|            (_)         / __  \|  _  ||  _  |/ __  \
+\ `--.   ___  _ __  _   __ _   `' / /'| |/' || |/' |`' / /'
+ `--. \ / _ \| '__|| | / _` |    / /  |  /| ||  /| |  / /  
+/\__/ /|  __/| |   | || (_| |  ./ /___\ |_/ /\ |_/ /./ /___
+\____/  \___||_|   |_| \__,_|  \_____/ \___/  \___/ \_____/
+V roku 1999 vzniklo euro vo virtuálnej podobe (šeky a elektronická platba).
+
+Tri roky od zavedenia eura, v roku 2002, boli zavedené euro bankovky a mince.
+Bankovky boli nadizajnované Rakúšanom Robertom Kalinom.
+Boli každá inej farby a veľkosti a zobrazovali európsku architektúru: domy na jednej strane a mosty na druhej. Mosty mali byť vymyslené, ale neskôr sa zistilo, že ich Kalina odkopíroval z nejakej knihy. Aj kvôli tomu bola potrebná zmena dizajnu bankoviek.
+Prvky bankoviek tejto série boli: 
+ ▷ Vlajka EÚ 
+ ▶ Mapa Európy na rubovej strane 
+ ▷ Podpis súčasného prezidenta Európskej Centrálnej banky, 
+ ▶ Nápis EURO v latinke (EURO) a v gréčtine (ΕΥΡΩ) 
+ ▷ Skratka Európskej centrálnej banky v rôznych jazykoch (BCE, ECB, EZB, EKT, EKP)
+
+╭─────────┬──────────┬──────────────────────╮
+│ Hodnota │ Farba    │ Štýl                 │
+├─────────┼──────────┼──────────────────────┤
+├─────────┼──────────┼──────────────────────┤
+│ 5       │ Sivá     │ Klasicizmus          │
+├─────────┼──────────┼──────────────────────┤
+│ 10      │ Červená  │ Románsky štýl        │
+├─────────┼──────────┼──────────────────────┤
+│ 20      │ Modrá    │ Gotika               │
+├─────────┼──────────┼──────────────────────┤
+│ 50      │ Oranžová │ Renesancia           │
+├─────────┼──────────┼──────────────────────┤
+│ 100     │ Zelená   │ Baroko a Rokoko      │
+├─────────┼──────────┼──────────────────────┤
+│ 200     │ Žltá     │ Art Noveau           │
+├─────────┼──────────┼──────────────────────┤
+│ 500     │ Fialová  │ Moderná architektúra │
+╰─────────┴──────────┴──────────────────────╯
+ _____              _             _____                                   
+/  ___|            (_)           |  ___|                                  
+\ `--.   ___  _ __  _   __ _     | |__   _   _  _ __   ___   _ __    __ _ 
+ `--. \ / _ \| '__|| | / _` |    |  __| | | | || '__| / _ \ | '_ \  / _` |
+/\__/ /|  __/| |   | || (_| |    | |___ | |_| || |   | (_) || |_) || (_| |
+\____/  \___||_|   |_| \__,_|    \____/  \__,_||_|    \___/ | .__/  \__,_|
+                                                            | |           
+
+
+
+
+
+V roku 2013 boli do obehu dané prvé bankovky novej série. Upgrade dizajnu spravil Reinhold Gerstetter, nemecký dizajnér bankoviek a známok.
+Pridali do dizajnu bankoviek niekoľko zmien, napr. Holografický portrét postavy z gréckej mýtológie Európy alebo zahrnutie 12 hviezd z vlajky EÚ do dizajnu.
+Tiež je na novej sérii viditeľný vzrast počtu členov Európskej Únie: K skratkám ECB pribudli ЕЦБ,BĊE,EKB a EBC. Bol pridaný nápis EURO v azbuke (EBPO).
+╭─────────┬────────────┬───────────────────────┬──────────────────────╮
+│ Hodnota │ Farba      │ Rok uvedenia do obehu │ Architektonický Štýl │
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+│ 5       │ Sivá       │ 2013                  │ Klasicizmus          │
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+│ 10      │ Červená    │ 2014                  │ Románsky štýl        │
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+│ 20      │ Modrá      │ 2015                  │ Gotika               │
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+│ 50      │ Oranžová   │ 2017                  │ Renesancia           │
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+│ 100     │ Zelená     │ 2017                  │ Barok a rokoko       │
+├─────────┼────────────┼───────────────────────┼──────────────────────┤
+│ 200     │ Žltá/Hnedá │ 2019                  │ Art Noveau           │
+╰─────────┴────────────┴───────────────────────┴──────────────────────╯
+______                                                   _                
+| ___ \                                                 | |               
+| |_/ /  ___  ____ _ __    ___   ___  _ __    ___   ___ | |_  _ __    ___ 
+| ___ \ / _ \|_  /| '_ \  / _ \ / __|| '_ \  / _ \ / __|| __|| '_ \  / _ \
+| |_/ /|  __/ / / | |_) ||  __/| (__ | | | || (_) |\__ \| |_ | | | ||  __/
+\____/  \___|/___|| .__/  \___| \___||_| |_| \___/ |___/ \__||_| |_| \___|
+                  | |                                                     
+                  |_|                     _           
+                    | |          
+ _ __   _ __ __   __| | __ _   _ 
+| '_ \ | '__|\ \ / /| |/ /| | | |
+| |_) || |    \ V / |   < | |_| |
+| .__/ |_|     \_/  |_|\_\ \__, |
+| |                         __/ |
+|_|                        |___/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zᴀ́ᴋʟᴀᴅɴᴇ́ ᴘʀᴠᴋʏ   
+  ▷ Pevný papier
+  ▶ Vystupujúca tlač
+  ▷ Vodoznak s portrétom
+  ▶ Ochranný prúžok 
+  ▷ Hologram s portrétom
+  ▶ Mikrotlač
+Ďᴀʟšɪᴇ ᴘʀᴠᴋʏ
+  ▷ Hologramy - V pravej časti lícnej strany. Obsahuje:
+	1. Hodnotu bankovky
+        2. Znak €
+        3. Priehlbiny v tvare znaku €
+  ▶ Atrament meniaci farbu
+        Atrament na niektorých častiach bankovky mení farbu.
+  ▷ Kontrolný súčet:
+	Každá bankovka má sériové číslo, ktoré sa skladá z písmena a číslic. Ak písmeno nahradíme jeho hodnotou v ASCII tabuľke, sériové číslo bude deliteľné 9.
+  ▶ Infračervené svetlo
+	Ak na bankovku zasvietime infračerveným svetlom, niektoré časti(v závislosti od hodnoty) budú tmavé a iné svetlejšie.
+  ▷ Ultrafialové svetlo
+        Po zasvietení  UV svetlom na bankovku, niektoré časti(napr. 12 hviezd z vlajky EÚ) sa sfarbia.
+  ▶ Magnetický atrament
+        Atrament na niektorých miestach je zmagnetizovaný, napr. okno kostola na 20-eurovkách
+  ▷ Čiarový kód
+        Keď sa na bankovku pozrie proti svetlu, je vidno čiarový kód. Keď sa prekonvertuje cez rôzne zložité binárne operácie, získame hodnotu bankovky.
+
+ ______              _                                   _ 
+ | ___ \            | |                                 (_)
+ | |_/ /  ___   ___ | |_  _   _  _ __       _ __   _ __  _ 
+ |  __/  / _ \ / __|| __|| | | || '_ \     | '_ \ | '__|| |
+ | |    | (_) |\__ \| |_ | |_| || |_) |    | |_) || |   | |
+ \_|     \___/ |___/ \__| \__,_|| .__/     | .__/ |_|   |_|
+                                | |        | |             
+                                |_|        |_|                             _           
+                            | |          
+ __   __ _   _  _ __   ___  | |__    ___ 
+ \ \ / /| | | || '__| / _ \ | '_ \  / _ \
+  \ V / | |_| || |   | (_) || |_) ||  __/
+   \_/   \__, ||_|    \___/ |_.__/  \___|
+          __/ |                          
+         |___/
+Najprv sa odohráva výroba papiera. €-bankovky sú vyrobené zo špeciálneho papiera z bavlnených vlákien, aby boli pevné, odolné a rozpoznateľné na dotyk
+Bankovky sa tlačia na veľké listy papiera, aby sa urýchlil proces tlače
+Potom sa  vytlačí ochranný prúžok, vodotlač a hologramy.
+V ďalšom kroku sa vytlačí pozadie.
+Potom sa pridá atrament meniaci farbu.
+Ďalej sa vytlačia obrázky a čiary na okrajoch bankovky.
+Úplne nakoniec sa na každú bankovku vytlačí jedinečné sériové číslo.
+
+Potom sa listy papiera uložia na kopy po 10 listov, narežú a uložia do krabíc, do ktorých sa zmestí presne 1000 bankoviek.
+Krabice sa buď uložia do trezorov alebo sa posunú národným bankám.
+
+ 
+
+  _____      _         _                     _                            _ 
+ |  _  |    | |       | |                   | |                          (_)
+ | | | |  __| |  ___  | | _ __    ___   ___ | |_     __   __  ___    ___  _ 
+ | | | | / _` | / _ \ | || '_ \  / _ \ / __|| __|    \ \ / / / _ \  / __|| |
+ \ \_/ /| (_| || (_) || || | | || (_) |\__ \| |_      \ V / | (_) || (__ | |
+  \___/  \__,_| \___/ |_||_| |_| \___/ |___/ \__|      \_/   \___/  \___||_|                     _                _               _        
+                    | |              | |             (_)       
+  _ __    ___   ___ | | __  ___    __| |  ___  _ __   _  _   _ 
+ | '_ \  / _ \ / __|| |/ / / _ \  / _` | / _ \| '_ \ | || | | |
+ | |_) || (_) |\__ \|   < | (_) || (_| ||  __/| | | || || |_| |
+ | .__/  \___/ |___/|_|\_\ \___/  \__,_| \___||_| |_||_| \__,_|
+ | |                                                           
+ |_|
+Euro bankovky sú odolné voči
+  ▷ Treniu
+  ▶ Extrémne vysokým teplotám
+  ▷ Extrémne nízkym teplotám
+  ▶ Žehleniu
+  ▷ Praniu
+  ▶ Slnečnému svetlu
+  ▷ Silným kyselinám
+  ▶ Krčeniu
+
+𝐙𝐃𝐑𝐎𝐉𝐄:
+	Európska Centrálna Banka: The Euro banknotes, 2023							https://www.ecb.europa.eu/euro/banknotes/html/index.en.html/;
+	Európska Centrálna Banka: The New Face of the Euro – Europa, 10. 1. 2013,         		https://www.youtube.com/watch?v=awgADXlrpX8;
+      Európska Centrálna Banka: Euro Banknotes – Made to Last, 29. 4. 2019,
+            https://www.youtube.com/watch?v=5mCVOAXLg00; 
+      Európska Centrálna Banka: How Euro Banknotes Are Produced, 24. 5. 2019,
+		https://www.youtube.com/watch?v=SKq1UnuVijA; 
+	The Euro Information Website: The Euro Information Website, verzia 20. 1. 2012,
+		https://web.archive.org/web/20120105071659/http://www.ibiblio.org/theeuro/InformationWebsite.htm 
+      
+
+
+
+
+	
+
+
+
+
+ 
+

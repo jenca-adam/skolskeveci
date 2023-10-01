@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage[slovak]{babel}
+\usepackage{unicode-math}
+\begin{document}
+\huge
+\begin{center} \textbf{LABORATÓRNY PROTOKOL}
+	\vskip 0.5cm
+	\textit{Meranie hmotnostnej tepelnej kapacity} 
+	\vskip 1cm
+	\large Adam Jenča, Sekunda 
+\end{center}
+\normalsize
+\section{Teoretický úvod}
+\subsection{Teplo}
+Teplo $Q$ je kinetická energia Brownovho pohybu.
+Základná jednotka tepla je Joule ($J$)
+Rovnica na výpočet tepla je 
+	\[
+		Q = m \cdot c \cdot \Delta t
+	\]
+\subsection{Hmotnostná tepelná kapacita}
+Hmotnostná tepelná kapacita $c$ je fyzikálna vlastnosť, popisujúca správanie sa danej látky, konkrétne koľko tepla $Q$ musí určitá hmotnosť $m$ (väčšinou 1 kg) danej látky prijať, aby sa jej teplota zmenila o $\Delta t$ (väčšinou 1°C).
+Základná jednotka $c$ je $\frac{J}{kg \cdot ^{\circ} C}$
+
+\subsection{Kalometrická rovnica}
+Jej znenie je \[
+	Q_{odovzdane} = Q_{prijate}
+\]
+Znamená to, že kedykoľvek nejaké teleso odovzdá teplo, musí iné teleso/telesá rovnaké teplo prijať.
+Táto rovnica platí aj opačne.
+\section{Pomôcky}
+\begin{itemize}
+\item Valček z neznámeho materiálu
+\item Voda
+\item Kadička
+\item Kanvica
+\item Kalorimeter
+\item Teplomer
+\end{itemize}
+\section{Postup}
+\begin{enumerate}
+\item Odvážime valček. Jeho hmotnosť $m_v = 100 g$ si zapíšeme
+\item Do kadičky nalejeme približne 150 ml vody
+\item Odmeriame teplotu vody $t_{H_2O} = 16,5 ^{\circ}C$
+\item Odvážime vodu a nalejeme ju do kalorimetra. Jej hmotnosť $m_{H_2O} = 151,1 g$ si zapíšeme
+\item Dáme do kanvice zohrievať vodu.
+\item Keď zovrie, ponoríme do nej valček na 5 minút (po tejto dobe by mala  nastať tepelná rovnováha medzi vodou a valčekom)
+\item Odmeriame teplotu vody, ktorá je rovná teplote valčeka $t_v = 60 ^{\circ}$
+\item Vyberieme valček z vody a čo najrýchlejšie ho ponoríme do vody v kalorimetri.
+\item Postupne v intervale 30 sekúnd meriame teplotu, až kým sa neustáli. Ustálenú teplotu celej sústavy $t=20 ^{\circ}C$ si zapíšeme.
+\item Vypočítame tepelnú kapacitu valčeka pomocou vzorca 
+	\[
+		c_v = \frac {m_{H_2O} \cdot c_{H_2O} \cdot ( t - t_{H_2O})} {m_v \cdot (t_v - t)}
+	\]
+\end{enumerate}
+\section{Výpočet}
+Z tabuliek vieme, že $c_{H_2O} = 4180 \frac{J}{kg\cdot ^{\circ} C}$.
+Dosadíme si hodnoty do vzorca 
+\[
+	c_v = \frac {151,1 g \cdot 4180 \frac{J}{kg\cdot ^{\circ} C} \cdot (20 ^{\circ}C - 16,5 ^{\circ}C)}{100 g \cdot ( 60 ^{\circ}C - 20 ^{\circ}C)}
+\]
+Po premene jednotiek:
+$$
+	c_v =  \frac {0,1511 kg \cdot 4180 \frac{J}{kg\cdot ^{\circ} C} \cdot (20 ^{\circ}C - 16,5 ^{\circ}C)}{0,1 kg \cdot ( 60 ^{\circ}C - 20 ^{\circ}C)} = \\
+	\frac {0,1511 kg \cdot 4180 \frac{J}{kg\cdot ^{\circ} C} \cdot 3,5 ^{\circ}C}{0,1 kg \cdot 40^{\circ}C} =$$$$
+	\frac {0,1511 \cdot 4180 \frac{J}{kg\cdot ^{\circ} C} \cdot 3,5}{0,1  \cdot 40 } = \frac {2210,593 \frac{J}{kg\cdot ^{\circ} C}} {4} = 552,64825 \frac{J}{kg\cdot ^{\circ} C}
+$$
+\section{Záver}
+Cieľom experimentu bolo zistiť, z akého materiálu je valček vyrobený a porovnať nameranú tepelnú kapacitu s tabuľkovou. 
+Vyšlo nám, že valček je z tepaného železa(tepelná kapacita je $500\frac{J}{kg\cdot ^{\circ} C}$).
+Rozdiel v tepelných kapacitách bol pomerne malý, iba $52,64825 \frac{J}{kg\cdot ^{\circ} C}$.
+Chyba merania mohla nastať výmenou tepla medzi valčekom a vzduchom v miestnosti počas nedostatočne rýchleho presunu valčeka z kanvice do kalorimetra, a tiež výmenou tepla medzi vzduchom a vodou pred naliatím do kalorimetra(teplotu vody som chybne meral ešte pred jej preliatím do kalorimetra, a nejaké teplo zo vzduchu sa do nej ešte stihlo preniesť aj po meraní, takže $t_{H_2O}$ by mala byť mierne vyššia.
+Experiment by sa dal zlepšiť meraním teploty vody až po jej preliatí do kalorimetra, a tiež rýchlejším presunom valčeka do kalorimetra. Najdokonalejší výsledok by sme získali vykonávaním pokusu vo vákuu.
+
+\end{document}
