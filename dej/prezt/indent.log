@@ -1,0 +1,31 @@
+INFO:  latexindent.pl version 3.17.3, 2022-06-05, a script to indent .tex files
+       latexindent.pl lives here: /home/adam/latexindent.pl/
+       Wed Dec 13 10:07:25 2023
+       Reading input from STDIN
+INFO:  Processing switches:
+INFO:  Directory for backup files and indent.log:
+       .
+INFO:  Perl modules are being loaded from the following directories:
+       /usr/share/perl5/core_perl/FindBin.pm
+       /usr/share/perl5/site_perl/YAML/Tiny.pm
+       /usr/share/perl5/core_perl/File/Copy.pm
+       /usr/share/perl5/core_perl/File/Basename.pm
+       /usr/share/perl5/core_perl/Getopt/Long.pm
+       /usr/share/perl5/site_perl/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       /home/adam/latexindent.pl/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /home/adam/latexindent.pl/defaultSettings.yaml
+INFO:  YAML settings read: indentconfig.yaml or .indentconfig.yaml
+       Home directory is /home/adam (didn't find either indentconfig.yaml or .indentconfig.yaml)
+       To specify user settings you would put indentconfig.yaml here: /home/adam/indentconfig.yaml
+       Alternatively, you can use the hidden file .indentconfig.yaml as: /home/adam/.indentconfig.yaml
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Not outputting to file; see -w and -o switches for more options.
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

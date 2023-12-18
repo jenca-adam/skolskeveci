@@ -1,0 +1,34 @@
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.10.22)  13 DEC 2023 10:37
+ restricted system commands enabled.
+**m
+(/usr/share/texmf-dist/tex/latex/tools/q.tex
+! Interruption.
+<everyjob> \directlua {
+            require("lualatexquotejobname.lua")}\typeout {\fmtname \space <\fmt
+l.1 
+  %%
+? q
+OK, entering \batchmode...
+LaTeX2e <2022-11-01> patch level 1
+[\directlua]:1: module 'luaotfload-main' not found:
+	no field package.preload['luaotfload-main']
+	[kpse lua searcher] file not found: 'luaotfload-main'
+Error in luaotfload: reverting to OT1 L3 programming layer <2023-02-22>
+Inserting `tracingstacklevels' in `input_level_string'. File ignored
+)
+! Emergency stop.
+<*> m
+  
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 20 strings out of 478285
+ 100000,1977958 words of node,token memory allocated 275 words of node memory still in use:
+   1 hlist, 1 dir, 39 glue_spec nodes
+   avail lists: 2:12,3:3,4:1
+ 20343 multiletter control sequences out of 65536+600000
+ 14 fonts using 591679 bytes
+ 13i,0n,12p,80b,15s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
